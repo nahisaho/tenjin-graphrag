@@ -442,7 +442,7 @@ tengin:cognitive-load-theory a schema:ScholarlyArticle ;
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/nahisaho/tenjin-graphrag.git
+git clone https://github.com/nahisaho/tengin-graphrag.git
 cd tenjin-graphrag
 
 # 依存関係をインストール
@@ -515,7 +515,7 @@ uv run tengin-server
 
 # 関連リンク
 
-- [TENGIN Education Theory MCP Server (GitHub)](https://github.com/nahisaho/tenjin-graphrag)
+- [TENGIN Education Theory MCP Server (GitHub)](https://github.com/nahisaho/tengin-graphrag)
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
 - [Neo4j Graph Database](https://neo4j.com/)
 
