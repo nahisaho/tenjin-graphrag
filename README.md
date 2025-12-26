@@ -1,5 +1,12 @@
 # TENGIN Education Theory MCP Server
 
+[![CI](https://github.com/nahisaho/TENGIN-GraphRAG/actions/workflows/ci.yml/badge.svg)](https://github.com/nahisaho/TENGIN-GraphRAG/actions/workflows/ci.yml)
+[![E2E Tests](https://github.com/nahisaho/TENGIN-GraphRAG/actions/workflows/e2e.yml/badge.svg)](https://github.com/nahisaho/TENGIN-GraphRAG/actions/workflows/e2e.yml)
+[![codecov](https://codecov.io/gh/nahisaho/TENGIN-GraphRAG/branch/main/graph/badge.svg)](https://codecov.io/gh/nahisaho/TENGIN-GraphRAG)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io/)
+
 教育理論ナレッジグラフを提供するMCPサーバー。
 
 ## 概要
@@ -56,7 +63,7 @@ TENGIN Education Theory MCP Serverは、教育理論のナレッジグラフをM
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/your-org/TENGIN-GraphRAG.git
+git clone https://github.com/nahisaho/TENGIN-GraphRAG.git
 cd TENGIN-GraphRAG
 
 # 依存関係をインストール
