@@ -344,9 +344,9 @@
 - Vygotsky, L. S. (1978). *Mind in Society*. Harvard University Press. [Link](https://www.hup.harvard.edu/books/9780674576292)
 
 ### データベース
-- ERIC (Education Resources Information Center)
-- PsycINFO
-- Web of Science
+- [ERIC (Education Resources Information Center)](https://eric.ed.gov/)
+- [PsycINFO](https://www.apa.org/pubs/databases/psycinfo)
+- [Web of Science](https://www.webofscience.com/)
 
 ---
 
