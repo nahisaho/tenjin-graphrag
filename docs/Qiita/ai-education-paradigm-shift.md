@@ -74,7 +74,7 @@ graph TD
 
 ## 3.3 教育理論オントロジーの意義
 
-教育理論をオントロジーとして形式化することで：
+教育理論をオントロジーとして形式化することで
 
 1. **明示的知識化** - 暗黙知を機械可読な形式に変換
 2. **推論可能性** - 理論間の関係から新たな知見を導出
@@ -89,15 +89,17 @@ graph TD
 
 RAGは「検索して生成する」シンプルなアプローチですが、教育理論のような**構造化された知識体系**には限界があります。
 
+```mermaid
+flowchart LR
+    Q[Query] --> V[ベクトル検索]
+    V --> D[類似ドキュメント]
+    D --> L[LLM生成]
+    
+    style Q fill:#f9f,stroke:#333
+    style L fill:#9ff,stroke:#333
 ```
-┌─────────────────────────────────────────────────────────┐
-│  従来のRAG                                              │
-│                                                         │
-│  Query → ベクトル検索 → 類似ドキュメント → LLM生成     │
-│                                                         │
-│  問題: ドキュメント間の「関係性」が失われる            │
-└─────────────────────────────────────────────────────────┘
-```
+
+> ⚠️ **問題**: ドキュメント間の「関係性」が失われる
 
 ### RAGの問題点
 
@@ -112,16 +114,17 @@ RAGは「検索して生成する」シンプルなアプローチですが、�
 
 **GraphRAG**は、知識をグラフ構造として保持することで、RAGの限界を克服します。
 
+```mermaid
+flowchart LR
+    Q[Query] --> G[グラフトラバース<br/>＋ベクトル検索]
+    G --> N[関連ノード群<br/>＋関係性情報]
+    N --> L[LLM生成]
+    
+    style Q fill:#f9f,stroke:#333
+    style L fill:#9ff,stroke:#333
 ```
-┌─────────────────────────────────────────────────────────┐
-│  GraphRAG                                               │
-│                                                         │
-│  Query → グラフトラバース → 関連ノード群 → LLM生成    │
-│          ＋ベクトル検索     ＋関係性情報                │
-│                                                         │
-│  利点: 構造・関係性・文脈を保持したまま検索           │
-└─────────────────────────────────────────────────────────┘
-```
+
+> ✅ **利点**: 構造・関係性・文脈を保持したまま検索
 
 ### GraphRAGが解決すること
 
@@ -172,25 +175,16 @@ graph LR
 
 TENGINは**GraphRAG + ベクトル検索**のハイブリッドアプローチを採用しています。
 
-```
-                    ユーザークエリ
-                         │
-           ┌─────────────┴─────────────┐
-           ▼                           ▼
-    ┌──────────────┐           ┌──────────────┐
-    │  ChromaDB    │           │    Neo4j     │
-    │ ベクトル検索  │           │ グラフ検索    │
-    │ (セマンティック)│           │ (構造・関係)  │
-    └──────────────┘           └──────────────┘
-           │                           │
-           └─────────────┬─────────────┘
-                         ▼
-                   結果のマージ
-                   ＋ランキング
-                         │
-                         ▼
-                  LLMによる生成
-                 (構造化された文脈付き)
+```mermaid
+flowchart TB
+    Q[ユーザークエリ] --> C[ChromaDB<br/>ベクトル検索<br/>セマンティック]
+    Q --> N[Neo4j<br/>グラフ検索<br/>構造・関係]
+    C --> M[結果のマージ<br/>＋ランキング]
+    N --> M
+    M --> L[LLMによる生成<br/>構造化された文脈付き]
+    
+    style Q fill:#f9f,stroke:#333
+    style L fill:#9ff,stroke:#333
 ```
 
 - **ベクトル検索**: 自然言語クエリの意味的類似性でエントリーポイントを発見
@@ -204,16 +198,18 @@ TENGINは**GraphRAG + ベクトル検索**のハイブリッドアプローチ�
 
 TENGINは**Neo4j**グラフデータベース上に、以下のスキーマで教育理論を格納しています。
 
-```
-[Theory] --PROPOSED_BY--> [Theorist]
-   |
-   +--HAS_CONCEPT--> [Concept]
-   |
-   +--SUPPORTED_BY--> [Evidence]
-   |
-   +--INFLUENCES--> [Theory]
-   |
-   +--APPLICABLE_IN--> [Context]
+```mermaid
+graph LR
+    T[Theory] -->|PROPOSED_BY| Th[Theorist]
+    T -->|HAS_CONCEPT| C[Concept]
+    T -->|SUPPORTED_BY| E[Evidence]
+    T -->|INFLUENCES| T2[Theory]
+    T -->|APPLICABLE_IN| Ctx[Context]
+    
+    style T fill:#e1f5fe,stroke:#0288d1
+    style Th fill:#fff3e0,stroke:#f57c00
+    style C fill:#e8f5e9,stroke:#388e3c
+    style E fill:#fce4ec,stroke:#c2185b
 ```
 
 ## 5.2 MECE分類によるパラダイム体系
@@ -250,16 +246,22 @@ class EvidenceLevel(Enum):
 
 **MCP**はAnthropicが提唱するオープンプロトコルで、AIアプリケーションと外部データソースを標準的な方法で接続します。
 
-```
-┌─────────────┐     MCP      ┌─────────────────┐
-│   Claude    │◄────────────►│  TENGIN Server  │
-│  (AI Host)  │   JSON-RPC   │ (MCP Provider)  │
-└─────────────┘              └─────────────────┘
-                                    │
-                              ┌─────┴─────┐
-                              ▼           ▼
-                          [Neo4j]    [ChromaDB]
-                          グラフDB   ベクトルDB
+```mermaid
+flowchart LR
+    subgraph AIホスト
+        C[Claude]
+    end
+    
+    subgraph MCPプロバイダー
+        T[TENGIN Server]
+        T --> N[(Neo4j<br/>グラフDB)]
+        T --> Ch[(ChromaDB<br/>ベクトルDB)]
+    end
+    
+    C <-->|MCP<br/>JSON-RPC| T
+    
+    style C fill:#f9f,stroke:#333
+    style T fill:#9ff,stroke:#333
 ```
 
 ## 6.2 TENGINが提供するMCPプリミティブ
@@ -488,13 +490,10 @@ uv run tengin-server
 
 生成AI + 教育理論オントロジーの組み合わせは、**教育コンテンツ生成の質的転換**をもたらします。
 
-```
-従来: AI = 高度な文章生成器
-　　　（何を言うかは学習データ次第）
-
-今後: AI = 知識エンジン上のインターフェース
-　　　（オントロジーに基づく推論と生成）
-```
+| 時代 | AIの役割 | 特徴 |
+|------|---------|------|
+| **従来** | 高度な文章生成器 | 何を言うかは学習データ次第 |
+| **今後** | 知識エンジン上のインターフェース | オントロジーに基づく推論と生成 |
 
 ## 11.3 今後の展望
 
