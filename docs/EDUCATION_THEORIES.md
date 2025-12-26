@@ -338,14 +338,10 @@
 ## 📖 参考文献
 
 ### 主要参考文献
-- Mayer, R. E. (Ed.). (2021). *The Cambridge Handbook of Multimedia Learning* (3rd ed.). Cambridge University Press.
-- Sweller, J., Ayres, P., & Kalyuga, S. (2011). *Cognitive Load Theory*. Springer.
-- Ryan, R. M., & Deci, E. L. (2017). *Self-Determination Theory*. Guilford Press.
-- Kolb, D. A. (2015). *Experiential Learning* (2nd ed.). Pearson.
-- Bandura, A. (1997). *Self-Efficacy: The Exercise of Control*. Freeman.
-- Vygotsky, L. S. (1978). *Mind in Society*. Harvard University Press.
-- Gagné, R. M., et al. (2005). *Principles of Instructional Design* (5th ed.). Wadsworth.
-- van Merriënboer, J. J. G., & Kirschner, P. A. (2018). *Ten Steps to Complex Learning* (3rd ed.). Routledge.
+- Ryan, R. M., & Deci, E. L. (2017). *Self-Determination Theory*. Guilford Press. [Link](https://www.guilford.com/books/Self-Determination-Theory/Ryan-Deci/9781462538966)
+- Kolb, D. A. (2015). *Experiential Learning* (2nd ed.). Pearson. [Link](https://www.pearson.com/en-us/subject-catalog/p/experiential-learning-experience-as-the-source-of-learning-and-development/P200000003106)
+- Bandura, A. (1997). *Self-Efficacy: The Exercise of Control*. Worth Publishers. [Link](https://books.google.com/books?id=eJ-PN9g_o-EC)
+- Vygotsky, L. S. (1978). *Mind in Society*. Harvard University Press. [Link](https://www.hup.harvard.edu/books/9780674576292)
 
 ### データベース
 - ERIC (Education Resources Information Center)
