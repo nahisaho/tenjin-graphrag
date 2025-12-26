@@ -1,0 +1,388 @@
+{
+  "principles": [
+    {
+      "id": "split-attention-effect",
+      "name": "分割注意効果",
+      "description": "複数の情報源を統合する必要がある場合、それらを物理的に統合して提示することで学習効果が向上する。分離して提示すると、学習者は情報源間を行き来するために余分な認知負荷を費やす。",
+      "application_guide": "図と説明文は近接して配置し、学習者が視線を大きく動かす必要がないようにする。可能であれば、ラベルを図の中に直接組み込む。",
+      "examples": [
+        "図の中に直接ラベルを入れる（別の凡例を参照させない）",
+        "数学の問題と解法ステップを同じ画面に表示する",
+        "プログラムコードとその説明を並べて表示する"
+      ],
+      "source_theory_id": "cognitive-load-theory"
+    },
+    {
+      "id": "redundancy-effect",
+      "name": "冗長性効果",
+      "description": "同じ情報を複数の形式で提示すると、かえって学習効果が低下する。追加情報の処理に認知資源が費やされるため。",
+      "application_guide": "自己完結的な視覚資料を使用する場合は、同じ内容を音声やテキストで繰り返さない。",
+      "examples": [
+        "ナレーション付きのスライドに同じ内容のテキストを表示しない",
+        "十分に詳細な図には追加の文字説明を加えない",
+        "動画に字幕とナレーションを同時に付けない（どちらか一方にする）"
+      ],
+      "source_theory_id": "cognitive-load-theory"
+    },
+    {
+      "id": "modality-principle",
+      "name": "モダリティ原則",
+      "description": "視覚資料と文字テキストの組み合わせよりも、視覚資料とナレーション（音声）の組み合わせの方が学習効果が高い。視覚チャネルの過負荷を避けられるため。",
+      "application_guide": "アニメーションや図解を提示する際は、画面上のテキストよりもナレーションを使用する。",
+      "examples": [
+        "アニメーション教材には音声ナレーションを付ける",
+        "複雑な図解の説明は音声で行う",
+        "科学シミュレーションには音声ガイダンスを付ける"
+      ],
+      "source_theory_id": "multimedia-learning-theory"
+    },
+    {
+      "id": "contiguity-principle",
+      "name": "近接原則",
+      "description": "関連する情報は空間的にも時間的にも近接して提示すべきである。関連する言葉と画像は近くに配置し、ナレーションと対応するアニメーションは同時に提示する。",
+      "application_guide": "対応するテキストと画像を画面の離れた場所に配置しない。ナレーションとアニメーションを順番ではなく同時に提示する。",
+      "examples": [
+        "図表のすぐ横に説明文を配置する",
+        "ナレーションに合わせてアニメーションを進行させる",
+        "プログラムコードとその出力結果を並べて表示する"
+      ],
+      "source_theory_id": "multimedia-learning-theory"
+    },
+    {
+      "id": "worked-example-effect",
+      "name": "ワークト・エグザンプル効果",
+      "description": "初学者にとって、問題を自力で解かせるよりも、解法が示された例題を学習させる方が効果的。問題解決の手段-目標分析による認知負荷を回避できる。",
+      "application_guide": "初学者には解法ステップが詳しく示された例題を提供し、徐々に練習問題に移行する（フェーディング）。",
+      "examples": [
+        "数学の解法ステップを示した例題",
+        "プログラミングのコード例と解説",
+        "文章構成のモデル文"
+      ],
+      "source_theory_id": "cognitive-load-theory"
+    },
+    {
+      "id": "expertise-reversal-effect",
+      "name": "専門性逆転効果",
+      "description": "初学者に有効な教授方略が、学習が進むと逆効果になることがある。学習者の専門性に応じて教授方略を調整する必要がある。",
+      "application_guide": "学習者の習熟度を継続的に評価し、初学者向けの足場かけは習熟に伴い段階的に減らす。",
+      "examples": [
+        "上級者には詳細な例題解説より問題解決を",
+        "専門家には統合された資料より分離された資料を",
+        "習熟者にはガイダンスを減らした課題を"
+      ],
+      "source_theory_id": "cognitive-load-theory"
+    },
+    {
+      "id": "autonomy-support",
+      "name": "自律性支援",
+      "description": "学習者に選択の機会を与え、自己決定感を促進することで、内発的動機づけと学習成果が向上する。",
+      "application_guide": "可能な範囲で学習者に選択権を与える（課題、ペース、方法など）。強制や統制を最小限にする。",
+      "examples": [
+        "複数の課題から選択させる",
+        "学習順序を自分で決められるようにする",
+        "目標設定に学習者を参加させる"
+      ],
+      "source_theory_id": "self-determination-theory"
+    },
+    {
+      "id": "nine-events-attention",
+      "name": "注意の獲得",
+      "description": "授業の最初に学習者の注意を引きつける活動を行う。好奇心を刺激する問いかけ、関連する事例、インパクトのある視覚資料などを使用する。",
+      "application_guide": "授業の冒頭で予想外の情報、興味深い問題、関連する事例を提示して学習者の注意を引く。",
+      "examples": [
+        "驚きを与える事実の提示",
+        "考えさせる質問の投げかけ",
+        "関連するニュースや事例の紹介"
+      ],
+      "source_theory_id": "gagne-nine-events"
+    },
+    {
+      "id": "segmenting-principle",
+      "name": "セグメント化原則",
+      "description": "複雑な内容は、学習者がペースをコントロールできる小さなセグメントに分割して提示すると学習効果が向上する。",
+      "application_guide": "長い説明やアニメーションを意味のあるセグメントに分割し、学習者が次に進むタイミングを制御できるようにする。",
+      "examples": [
+        "動画を短いチャプターに分割",
+        "「次へ」ボタンで進む教材",
+        "段階的に展開するインタラクティブ教材"
+      ],
+      "source_theory_id": "multimedia-learning-theory"
+    },
+    {
+      "id": "personalization-principle",
+      "name": "パーソナライゼーション原則",
+      "description": "形式的な文体よりも会話調の文体で説明すると学習効果が高まる。学習者との心理的距離が縮まり、深い処理が促進される。",
+      "application_guide": "「あなた」という二人称を使い、親しみやすい口調で説明する。堅苦しい三人称の文体は避ける。",
+      "examples": [
+        "「あなたは〜を学習します」という表現",
+        "会話形式のナレーション",
+        "バーチャルチューターの活用"
+      ],
+      "source_theory_id": "multimedia-learning-theory"
+    },
+    {
+      "id": "signaling-principle",
+      "name": "シグナリング原則",
+      "description": "重要な情報に注意を向けるための視覚的・言語的手がかりを追加すると学習効果が向上する。",
+      "application_guide": "重要な概念をハイライト、矢印、見出し、「重要なのは」などの言葉で強調する。",
+      "examples": [
+        "キーワードの太字化や色分け",
+        "図の重要部分を矢印で示す",
+        "「ここで注目すべきは」という前置き"
+      ],
+      "source_theory_id": "multimedia-learning-theory"
+    },
+    {
+      "id": "pretraining-principle",
+      "name": "事前学習原則",
+      "description": "複雑な内容を学習する前に、主要な概念の名称と特性を事前に学習しておくと、本学習の効果が向上する。",
+      "application_guide": "複雑なシステムやプロセスを教える前に、構成要素の名前と機能を先に紹介する。",
+      "examples": [
+        "エンジンの仕組みを教える前に部品名を覚えさせる",
+        "プログラミング概念の用語説明を先に行う",
+        "科学実験の前に器具名を紹介する"
+      ],
+      "source_theory_id": "multimedia-learning-theory"
+    },
+    {
+      "id": "modeling-principle",
+      "name": "モデリング原則",
+      "description": "熟練者が思考過程を声に出しながら課題を遂行するのを観察することで、認知スキルの学習が促進される。",
+      "application_guide": "専門家の問題解決過程を、その思考を言語化しながら見せる。なぜそう考えたかの理由も説明する。",
+      "examples": [
+        "教師が問題を解きながら考えを声に出す",
+        "プログラマーがコーディングしながら説明する",
+        "熟練者の意思決定過程の可視化"
+      ],
+      "source_theory_id": "cognitive-apprenticeship"
+    },
+    {
+      "id": "coaching-principle",
+      "name": "コーチング原則",
+      "description": "学習者が課題に取り組む際に、適時に助言、ヒント、フィードバック、リマインダーを提供することで学習が促進される。",
+      "application_guide": "学習者のパフォーマンスを観察し、必要な時に適切なレベルのサポートを提供する。",
+      "examples": [
+        "つまずいた時のヒント提供",
+        "方略の使用を促すリマインダー",
+        "パフォーマンスへの具体的フィードバック"
+      ],
+      "source_theory_id": "cognitive-apprenticeship"
+    },
+    {
+      "id": "articulation-principle",
+      "name": "言語化原則",
+      "description": "学習者に自分の知識、推論、問題解決過程を言語化させることで、理解が深まり、メタ認知が促進される。",
+      "application_guide": "学習者に「なぜそう思うか」「どう考えたか」を説明させる機会を設ける。",
+      "examples": [
+        "ペアで解法を説明し合う",
+        "学習日誌の記述",
+        "自己説明プロンプトの活用"
+      ],
+      "source_theory_id": "cognitive-apprenticeship"
+    },
+    {
+      "id": "reflection-principle",
+      "name": "省察原則",
+      "description": "自分の問題解決過程と専門家や他の学習者の過程を比較・分析することで、より深い理解とスキル向上が促される。",
+      "application_guide": "学習活動の後に振り返りの時間を設け、自分のアプローチを評価する機会を提供する。",
+      "examples": [
+        "ポートフォリオによる学習の振り返り",
+        "専門家の解法との比較",
+        "ピアレビューとフィードバック"
+      ],
+      "source_theory_id": "cognitive-apprenticeship"
+    },
+    {
+      "id": "interleaving-practice",
+      "name": "インターリービング練習",
+      "description": "異なる種類の問題や教材を混合して練習すると、同じ種類を連続して練習するより長期的な学習効果が高い。",
+      "application_guide": "同じ種類の問題をまとめて練習させるのではなく、異なる種類の問題を混ぜて練習させる。",
+      "examples": [
+        "数学の練習問題で複数の単元を混合",
+        "外国語学習で文法項目を混ぜて練習",
+        "スポーツで複数のスキルを交互に練習"
+      ],
+      "source_theory_id": "interleaving"
+    },
+    {
+      "id": "spacing-practice",
+      "name": "分散練習",
+      "description": "学習を時間的に分散させることで、集中学習よりも長期記憶への定着が促進される。",
+      "application_guide": "1回の長時間学習より、複数回に分けた短時間学習をスケジュールする。復習間隔を徐々に延長する。",
+      "examples": [
+        "毎日30分の学習を1週間継続",
+        "間隔を空けた復習スケジュール",
+        "SRS（間隔反復システム）の活用"
+      ],
+      "source_theory_id": "spaced-repetition"
+    },
+    {
+      "id": "retrieval-practice-principle",
+      "name": "検索練習の原則",
+      "description": "学習内容を能動的に想起する練習は、再読よりも長期記憶と転移を促進する。",
+      "application_guide": "教材を繰り返し読むより、自己テストや練習問題を積極的に活用する。",
+      "examples": [
+        "フラッシュカードでの自己テスト",
+        "章末問題への取り組み",
+        "学習内容を白紙から再構成する"
+      ],
+      "source_theory_id": "testing-effect"
+    },
+    {
+      "id": "generation-effect",
+      "name": "生成効果",
+      "description": "情報を単に読むより、自分で生成（想起、作成）することで記憶に残りやすい。",
+      "application_guide": "受動的に情報を提示するより、学習者自身に答えを生成させる活動を設計する。",
+      "examples": [
+        "穴埋め問題で答えを生成させる",
+        "要約を自分の言葉で書かせる",
+        "例を自分で考えさせる"
+      ],
+      "source_theory_id": "desirable-difficulties"
+    },
+    {
+      "id": "elaborative-interrogation",
+      "name": "精緻化質問",
+      "description": "「なぜそうなのか」を問う質問によって、深い処理と既有知識との統合が促進される。",
+      "application_guide": "事実の提示後に「なぜ？」「どのように？」という質問を投げかけ、説明を求める。",
+      "examples": [
+        "科学的事実の理由を考えさせる",
+        "歴史的出来事の因果関係を問う",
+        "概念間の関係を説明させる"
+      ],
+      "source_theory_id": "desirable-difficulties"
+    },
+    {
+      "id": "ill-structured-problem",
+      "name": "非構造化問題の使用",
+      "description": "実世界の複雑で正解が一つでない問題を使うことで、より深い学習と転移が促進される。",
+      "application_guide": "整理された教科書的問題だけでなく、曖昧さを含む実世界の問題も取り入れる。",
+      "examples": [
+        "ケーススタディでの意思決定",
+        "デザイン課題の取り組み",
+        "実社会の問題解決プロジェクト"
+      ],
+      "source_theory_id": "problem-based-learning"
+    },
+    {
+      "id": "collaborative-learning-principle",
+      "name": "協同学習の原則",
+      "description": "適切に構造化された協同学習は、個人学習よりも深い理解と学習成果をもたらす。",
+      "application_guide": "学習者間の相互作用を促進する活動を設計し、個人の責任と肯定的な相互依存を確保する。",
+      "examples": [
+        "ジグソー法での分担学習",
+        "ピアチュータリング",
+        "グループプロジェクト"
+      ],
+      "source_theory_id": "constructivism"
+    },
+    {
+      "id": "udl-multiple-means-representation",
+      "name": "複数の提示手段の原則",
+      "description": "情報や内容を提示する複数の方法を提供することで、多様な学習者のニーズに対応する。",
+      "application_guide": "テキスト、音声、画像、動画など、複数の形式で情報を提供する選択肢を用意する。",
+      "examples": [
+        "テキストと音声の両方を提供",
+        "字幕付き動画",
+        "図表による視覚的説明の追加"
+      ],
+      "source_theory_id": "universal-design-learning"
+    },
+    {
+      "id": "udl-multiple-means-expression",
+      "name": "複数の表現手段の原則",
+      "description": "学習者が理解を示し表現する複数の方法を提供することで、多様な強みを活かせる。",
+      "application_guide": "レポート、プレゼン、作品制作など、学習成果を示す複数の選択肢を用意する。",
+      "examples": [
+        "口頭発表または文書提出の選択",
+        "作品や実演による評価",
+        "デジタルツールの活用許可"
+      ],
+      "source_theory_id": "universal-design-learning"
+    },
+    {
+      "id": "udl-multiple-means-engagement",
+      "name": "複数の関与手段の原則",
+      "description": "学習への動機づけと関与を高める複数の方法を提供することで、多様な学習者の興味を引き出す。",
+      "application_guide": "選択の機会、適切な挑戦レベル、協同・個人の選択など、関与のオプションを提供する。",
+      "examples": [
+        "課題トピックの選択権",
+        "難易度の選択",
+        "協同作業と個人作業の選択"
+      ],
+      "source_theory_id": "universal-design-learning"
+    },
+    {
+      "id": "arcs-attention",
+      "name": "ARCS注意の原則",
+      "description": "学習者の注意を獲得し維持するために、知覚的喚起、探究心喚起、変化を活用する。",
+      "application_guide": "新奇性、驚き、不確実性、変化を導入して好奇心を刺激し、注意を維持する。",
+      "examples": [
+        "予想外の事実や逆説的な現象の提示",
+        "問いかけやパズルの活用",
+        "教授方法の変化"
+      ],
+      "source_theory_id": "arcs-model"
+    },
+    {
+      "id": "arcs-relevance",
+      "name": "ARCS関連性の原則",
+      "description": "学習内容と学習者の目標、興味、経験との関連を明確にすることで動機づけを高める。",
+      "application_guide": "学習内容が学習者にとってなぜ重要か、どう役立つかを明示的に説明する。",
+      "examples": [
+        "実生活での応用例の提示",
+        "将来の目標との関連付け",
+        "学習者の興味や経験との接続"
+      ],
+      "source_theory_id": "arcs-model"
+    },
+    {
+      "id": "arcs-confidence",
+      "name": "ARCS自信の原則",
+      "description": "成功体験の提供、学習要件の明確化、自己コントロール感の付与により、学習者の自信を育む。",
+      "application_guide": "達成可能な目標を設定し、成功体験を積ませ、自分の学習をコントロールできる感覚を与える。",
+      "examples": [
+        "段階的な難易度設定",
+        "評価基準の明示",
+        "具体的な成功フィードバック"
+      ],
+      "source_theory_id": "arcs-model"
+    },
+    {
+      "id": "arcs-satisfaction",
+      "name": "ARCS満足感の原則",
+      "description": "内発的強化、外発的報酬、公平性の感覚により、学習の満足感を高める。",
+      "application_guide": "学習の成果を認め、適切なフィードバックを提供し、公正な評価を行う。",
+      "examples": [
+        "学習した知識の即時活用機会",
+        "達成への称賛と認知",
+        "一貫した評価基準の適用"
+      ],
+      "source_theory_id": "arcs-model"
+    },
+    {
+      "id": "productive-failure-principle",
+      "name": "生産的失敗の原則",
+      "description": "直接教授の前に、学習者が解けない問題に取り組むことで、その後の学習効果が高まる。",
+      "application_guide": "新しい概念を教える前に、関連する挑戦的な問題に学習者を取り組ませる時間を設ける。",
+      "examples": [
+        "公式を教える前に問題に挑戦させる",
+        "概念説明前の探索活動",
+        "失敗からの振り返りと学習"
+      ],
+      "source_theory_id": "productive-failure"
+    },
+    {
+      "id": "self-explanation-effect",
+      "name": "自己説明効果",
+      "description": "学習中に自分自身に内容を説明することで、理解と記憶が促進される。",
+      "application_guide": "学習者に例題や概念を自分の言葉で説明させるプロンプトを組み込む。",
+      "examples": [
+        "例題の各ステップの理由を説明させる",
+        "「なぜこうなるか」を自問させる",
+        "要約を自分の言葉で作成させる"
+      ],
+      "source_theory_id": "metacognition"
+    }
+  ]
+}

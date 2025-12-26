@@ -1,0 +1,600 @@
+{
+  "theorists": [
+    {
+      "id": "sweller",
+      "name": "ジョン・スウェラー",
+      "name_en": "John Sweller",
+      "birth_year": 1946,
+      "nationality": "Australian",
+      "affiliation": "University of New South Wales",
+      "field": "Educational Psychology",
+      "contributions": [
+        "認知負荷理論の提唱",
+        "学習における作業記憶の役割の解明",
+        "教材設計への認知心理学の応用"
+      ],
+      "key_theories": ["cognitive-load-theory"],
+      "key_publications": [
+        {"title": "Cognitive Load Theory", "year": 2011, "type": "book"},
+        {"title": "Cognitive Load During Problem Solving", "year": 1988, "type": "article"}
+      ],
+      "influenced_by": ["miller", "simon"],
+      "influenced": ["mayer", "kalyuga"]
+    },
+    {
+      "id": "vygotsky",
+      "name": "レフ・ヴィゴツキー",
+      "name_en": "Lev Vygotsky",
+      "birth_year": 1896,
+      "death_year": 1934,
+      "nationality": "Russian/Soviet",
+      "affiliation": "Moscow State University",
+      "field": "Developmental Psychology",
+      "contributions": [
+        "発達の最近接領域（ZPD）概念の提唱",
+        "社会文化的発達理論の確立",
+        "言語と思考の関係の研究"
+      ],
+      "key_theories": ["zone-of-proximal-development", "social-constructivism"],
+      "key_publications": [
+        {"title": "Mind in Society", "year": 1978, "type": "book"},
+        {"title": "Thought and Language", "year": 1934, "type": "book"}
+      ],
+      "influenced_by": ["marx", "pavlov"],
+      "influenced": ["wertsch", "lave", "rogoff"]
+    },
+    {
+      "id": "piaget",
+      "name": "ジャン・ピアジェ",
+      "name_en": "Jean Piaget",
+      "birth_year": 1896,
+      "death_year": 1980,
+      "nationality": "Swiss",
+      "affiliation": "University of Geneva",
+      "field": "Developmental Psychology, Epistemology",
+      "contributions": [
+        "認知発達段階理論の確立",
+        "構成主義的認識論の発展",
+        "同化・調節によるスキーマ発達理論"
+      ],
+      "key_theories": ["cognitive-development-theory", "constructivism"],
+      "key_publications": [
+        {"title": "The Origins of Intelligence in Children", "year": 1936, "type": "book"},
+        {"title": "The Construction of Reality in the Child", "year": 1954, "type": "book"}
+      ],
+      "influenced_by": ["kant", "bergson"],
+      "influenced": ["bruner", "kohlberg", "kolb"]
+    },
+    {
+      "id": "bruner",
+      "name": "ジェローム・ブルーナー",
+      "name_en": "Jerome Bruner",
+      "birth_year": 1915,
+      "death_year": 2016,
+      "nationality": "American",
+      "affiliation": "Harvard University, New York University",
+      "field": "Cognitive Psychology, Educational Psychology",
+      "contributions": [
+        "発見学習理論の提唱",
+        "表象様式の発達理論（動作的・映像的・象徴的）",
+        "スパイラルカリキュラムの概念"
+      ],
+      "key_theories": ["discovery-learning", "spiral-curriculum"],
+      "key_publications": [
+        {"title": "The Process of Education", "year": 1960, "type": "book"},
+        {"title": "Toward a Theory of Instruction", "year": 1966, "type": "book"}
+      ],
+      "influenced_by": ["piaget", "vygotsky"],
+      "influenced": ["scaffolding-researchers"]
+    },
+    {
+      "id": "bandura",
+      "name": "アルバート・バンデューラ",
+      "name_en": "Albert Bandura",
+      "birth_year": 1925,
+      "death_year": 2021,
+      "nationality": "Canadian-American",
+      "affiliation": "Stanford University",
+      "field": "Social Psychology, Personality Psychology",
+      "contributions": [
+        "社会的学習理論の確立",
+        "自己効力感概念の提唱",
+        "観察学習（モデリング）の実証研究"
+      ],
+      "key_theories": ["social-learning-theory", "self-efficacy-theory"],
+      "key_publications": [
+        {"title": "Social Learning Theory", "year": 1977, "type": "book"},
+        {"title": "Self-Efficacy: The Exercise of Control", "year": 1997, "type": "book"}
+      ],
+      "influenced_by": ["miller-dollard", "skinner"],
+      "influenced": ["zimmerman", "schunk"]
+    },
+    {
+      "id": "skinner",
+      "name": "B.F.スキナー",
+      "name_en": "Burrhus Frederic Skinner",
+      "birth_year": 1904,
+      "death_year": 1990,
+      "nationality": "American",
+      "affiliation": "Harvard University",
+      "field": "Behavioral Psychology",
+      "contributions": [
+        "オペラント条件づけ理論の体系化",
+        "プログラム学習の開発",
+        "行動分析学の確立"
+      ],
+      "key_theories": ["operant-conditioning", "behaviorism", "programmed-instruction"],
+      "key_publications": [
+        {"title": "The Behavior of Organisms", "year": 1938, "type": "book"},
+        {"title": "Science and Human Behavior", "year": 1953, "type": "book"}
+      ],
+      "influenced_by": ["watson", "pavlov", "thorndike"],
+      "influenced": ["bandura", "applied-behavior-analysis"]
+    },
+    {
+      "id": "mayer",
+      "name": "リチャード・メイヤー",
+      "name_en": "Richard Mayer",
+      "birth_year": 1947,
+      "nationality": "American",
+      "affiliation": "University of California, Santa Barbara",
+      "field": "Educational Psychology",
+      "contributions": [
+        "マルチメディア学習理論の提唱",
+        "マルチメディア学習の12原則の実証",
+        "eラーニング設計への認知心理学の応用"
+      ],
+      "key_theories": ["multimedia-learning-theory"],
+      "key_publications": [
+        {"title": "Multimedia Learning", "year": 2001, "type": "book"},
+        {"title": "Cambridge Handbook of Multimedia Learning", "year": 2014, "type": "book"}
+      ],
+      "influenced_by": ["sweller", "paivio"],
+      "influenced": ["multimedia-learning-researchers"]
+    },
+    {
+      "id": "bloom",
+      "name": "ベンジャミン・ブルーム",
+      "name_en": "Benjamin Bloom",
+      "birth_year": 1913,
+      "death_year": 1999,
+      "nationality": "American",
+      "affiliation": "University of Chicago",
+      "field": "Educational Psychology",
+      "contributions": [
+        "教育目標の分類体系（タキソノミー）の開発",
+        "完全習得学習モデルの提唱",
+        "形成的評価概念の発展"
+      ],
+      "key_theories": ["blooms-taxonomy", "mastery-learning"],
+      "key_publications": [
+        {"title": "Taxonomy of Educational Objectives", "year": 1956, "type": "book"},
+        {"title": "Learning for Mastery", "year": 1968, "type": "article"}
+      ],
+      "influenced_by": ["tyler"],
+      "influenced": ["anderson-krathwohl"]
+    },
+    {
+      "id": "gagne",
+      "name": "ロバート・ガニェ",
+      "name_en": "Robert Gagné",
+      "birth_year": 1916,
+      "death_year": 2002,
+      "nationality": "American",
+      "affiliation": "Florida State University",
+      "field": "Instructional Psychology",
+      "contributions": [
+        "9教授事象の提唱",
+        "学習成果の5分類の開発",
+        "学習条件論の確立"
+      ],
+      "key_theories": ["gagne-nine-events", "conditions-of-learning"],
+      "key_publications": [
+        {"title": "The Conditions of Learning", "year": 1965, "type": "book"},
+        {"title": "Principles of Instructional Design", "year": 1974, "type": "book"}
+      ],
+      "influenced_by": ["skinner", "military-training"],
+      "influenced": ["merrill", "reigeluth"]
+    },
+    {
+      "id": "deci",
+      "name": "エドワード・デシ",
+      "name_en": "Edward Deci",
+      "birth_year": 1942,
+      "nationality": "American",
+      "affiliation": "University of Rochester",
+      "field": "Motivational Psychology",
+      "contributions": [
+        "自己決定理論の共同提唱",
+        "内発的動機づけの実験的研究",
+        "認知的評価理論の開発"
+      ],
+      "key_theories": ["self-determination-theory", "cognitive-evaluation-theory"],
+      "key_publications": [
+        {"title": "Intrinsic Motivation", "year": 1975, "type": "book"},
+        {"title": "Self-Determination Theory", "year": 2017, "type": "book"}
+      ],
+      "influenced_by": ["heider", "de-charms"],
+      "influenced": ["reeve", "ryan"]
+    },
+    {
+      "id": "ryan",
+      "name": "リチャード・ライアン",
+      "name_en": "Richard Ryan",
+      "birth_year": 1953,
+      "nationality": "American",
+      "affiliation": "University of Rochester, Australian Catholic University",
+      "field": "Motivational Psychology",
+      "contributions": [
+        "自己決定理論の共同提唱",
+        "基本的心理欲求理論の発展",
+        "自律性支援の研究"
+      ],
+      "key_theories": ["self-determination-theory", "basic-psychological-needs-theory"],
+      "key_publications": [
+        {"title": "Self-Determination Theory", "year": 2017, "type": "book"},
+        {"title": "Intrinsic motivation and self-determination in human behavior", "year": 1985, "type": "book"}
+      ],
+      "influenced_by": ["deci", "rogers"],
+      "influenced": ["vansteenkiste", "reeve"]
+    },
+    {
+      "id": "kolb",
+      "name": "デイビッド・コルブ",
+      "name_en": "David Kolb",
+      "birth_year": 1939,
+      "nationality": "American",
+      "affiliation": "Case Western Reserve University",
+      "field": "Organizational Behavior, Educational Theory",
+      "contributions": [
+        "経験学習モデルの体系化",
+        "学習スタイルインベントリの開発",
+        "経験学習サイクルの提唱"
+      ],
+      "key_theories": ["experiential-learning"],
+      "key_publications": [
+        {"title": "Experiential Learning", "year": 1984, "type": "book"},
+        {"title": "Learning Style Inventory", "year": 1976, "type": "instrument"}
+      ],
+      "influenced_by": ["dewey", "lewin", "piaget"],
+      "influenced": ["honey-mumford"]
+    },
+    {
+      "id": "gardner",
+      "name": "ハワード・ガードナー",
+      "name_en": "Howard Gardner",
+      "birth_year": 1943,
+      "nationality": "American",
+      "affiliation": "Harvard University",
+      "field": "Developmental Psychology, Neuropsychology",
+      "contributions": [
+        "多重知能理論の提唱",
+        "知能概念の再定義",
+        "芸術教育への貢献"
+      ],
+      "key_theories": ["multiple-intelligences"],
+      "key_publications": [
+        {"title": "Frames of Mind: The Theory of Multiple Intelligences", "year": 1983, "type": "book"},
+        {"title": "Multiple Intelligences: New Horizons", "year": 2006, "type": "book"}
+      ],
+      "influenced_by": ["piaget", "goodman"],
+      "influenced": ["armstrong", "lazear"]
+    },
+    {
+      "id": "keller",
+      "name": "ジョン・ケラー",
+      "name_en": "John Keller",
+      "birth_year": 1938,
+      "nationality": "American",
+      "affiliation": "Florida State University",
+      "field": "Instructional Systems",
+      "contributions": [
+        "ARCSモデルの開発",
+        "動機づけ設計プロセスの体系化",
+        "eラーニングにおける動機づけ研究"
+      ],
+      "key_theories": ["arcs-model"],
+      "key_publications": [
+        {"title": "Motivational Design for Learning and Performance", "year": 2010, "type": "book"},
+        {"title": "Development and Use of the ARCS Model", "year": 1987, "type": "article"}
+      ],
+      "influenced_by": ["tolman", "lewin", "expectancy-value-theorists"],
+      "influenced": ["instructional-designers"]
+    },
+    {
+      "id": "lave",
+      "name": "ジーン・レイヴ",
+      "name_en": "Jean Lave",
+      "birth_year": 1939,
+      "nationality": "American",
+      "affiliation": "University of California, Berkeley",
+      "field": "Social Anthropology, Education",
+      "contributions": [
+        "状況的学習理論の提唱",
+        "正統的周辺参加概念の開発",
+        "日常認知の研究"
+      ],
+      "key_theories": ["situated-learning"],
+      "key_publications": [
+        {"title": "Situated Learning: Legitimate Peripheral Participation", "year": 1991, "type": "book"},
+        {"title": "Cognition in Practice", "year": 1988, "type": "book"}
+      ],
+      "influenced_by": ["vygotsky", "scribner"],
+      "influenced": ["wenger", "brown"]
+    },
+    {
+      "id": "wenger",
+      "name": "エティエンヌ・ウェンガー",
+      "name_en": "Etienne Wenger",
+      "birth_year": 1952,
+      "nationality": "Swiss-American",
+      "affiliation": "Independent researcher",
+      "field": "Learning Theory, Knowledge Management",
+      "contributions": [
+        "実践共同体概念の発展",
+        "状況的学習理論への貢献",
+        "組織学習への応用"
+      ],
+      "key_theories": ["communities-of-practice", "situated-learning"],
+      "key_publications": [
+        {"title": "Communities of Practice", "year": 1998, "type": "book"},
+        {"title": "Situated Learning", "year": 1991, "type": "book"}
+      ],
+      "influenced_by": ["lave", "vygotsky"],
+      "influenced": ["knowledge-management-researchers"]
+    },
+    {
+      "id": "mezirow",
+      "name": "ジャック・メジロー",
+      "name_en": "Jack Mezirow",
+      "birth_year": 1923,
+      "death_year": 2014,
+      "nationality": "American",
+      "affiliation": "Columbia University",
+      "field": "Adult Education",
+      "contributions": [
+        "変容的学習理論の提唱",
+        "批判的省察概念の発展",
+        "成人教育理論への貢献"
+      ],
+      "key_theories": ["transformative-learning"],
+      "key_publications": [
+        {"title": "Transformative Dimensions of Adult Learning", "year": 1991, "type": "book"},
+        {"title": "Perspective Transformation", "year": 1978, "type": "article"}
+      ],
+      "influenced_by": ["habermas", "freire"],
+      "influenced": ["cranton", "taylor"]
+    },
+    {
+      "id": "knowles",
+      "name": "マルコム・ノウルズ",
+      "name_en": "Malcolm Knowles",
+      "birth_year": 1913,
+      "death_year": 1997,
+      "nationality": "American",
+      "affiliation": "North Carolina State University",
+      "field": "Adult Education",
+      "contributions": [
+        "アンドラゴジー概念の体系化",
+        "自己主導学習理論の発展",
+        "成人学習の6前提の提唱"
+      ],
+      "key_theories": ["andragogy", "self-directed-learning"],
+      "key_publications": [
+        {"title": "The Adult Learner", "year": 1973, "type": "book"},
+        {"title": "Self-Directed Learning", "year": 1975, "type": "book"}
+      ],
+      "influenced_by": ["lindeman", "rogers"],
+      "influenced": ["tough", "brookfield"]
+    },
+    {
+      "id": "siemens",
+      "name": "ジョージ・シーメンス",
+      "name_en": "George Siemens",
+      "birth_year": 1970,
+      "nationality": "Canadian",
+      "affiliation": "University of Texas Arlington",
+      "field": "Educational Technology",
+      "contributions": [
+        "コネクティビズムの提唱",
+        "MOOC（cMOOC）の開発",
+        "学習分析への貢献"
+      ],
+      "key_theories": ["connectivism"],
+      "key_publications": [
+        {"title": "Connectivism: A Learning Theory for the Digital Age", "year": 2005, "type": "article"},
+        {"title": "Knowing Knowledge", "year": 2006, "type": "book"}
+      ],
+      "influenced_by": ["network-theorists", "chaos-theory"],
+      "influenced": ["downes", "mooc-researchers"]
+    },
+    {
+      "id": "paivio",
+      "name": "アラン・パイヴィオ",
+      "name_en": "Allan Paivio",
+      "birth_year": 1925,
+      "death_year": 2016,
+      "nationality": "Canadian",
+      "affiliation": "University of Western Ontario",
+      "field": "Cognitive Psychology",
+      "contributions": [
+        "二重符号化理論の提唱",
+        "言語とイメージの記憶研究",
+        "具象性効果の実証"
+      ],
+      "key_theories": ["dual-coding-theory"],
+      "key_publications": [
+        {"title": "Imagery and Verbal Processes", "year": 1971, "type": "book"},
+        {"title": "Mental Representations: A Dual Coding Approach", "year": 1986, "type": "book"}
+      ],
+      "influenced_by": ["hebb", "gestalt-psychologists"],
+      "influenced": ["mayer", "clark"]
+    },
+    {
+      "id": "atkinson",
+      "name": "ジョン・アトキンソン",
+      "name_en": "John Atkinson",
+      "birth_year": 1923,
+      "death_year": 2003,
+      "nationality": "American",
+      "affiliation": "University of Michigan",
+      "field": "Motivational Psychology",
+      "contributions": [
+        "期待価値理論の体系化",
+        "達成動機の研究",
+        "リスクテイキング行動の分析"
+      ],
+      "key_theories": ["expectancy-value-theory"],
+      "key_publications": [
+        {"title": "A Theory of Achievement Motivation", "year": 1966, "type": "book"},
+        {"title": "Motivation and Achievement", "year": 1974, "type": "book"}
+      ],
+      "influenced_by": ["mcclelland", "tolman"],
+      "influenced": ["eccles", "wigfield"]
+    },
+    {
+      "id": "weiner",
+      "name": "バーナード・ワイナー",
+      "name_en": "Bernard Weiner",
+      "birth_year": 1935,
+      "nationality": "American",
+      "affiliation": "University of California, Los Angeles",
+      "field": "Social Psychology, Educational Psychology",
+      "contributions": [
+        "帰属理論の教育への応用",
+        "達成動機の帰属モデルの開発",
+        "感情と動機づけの関係の研究"
+      ],
+      "key_theories": ["attribution-theory"],
+      "key_publications": [
+        {"title": "Human Motivation", "year": 1980, "type": "book"},
+        {"title": "An Attributional Theory of Motivation and Emotion", "year": 1986, "type": "book"}
+      ],
+      "influenced_by": ["heider", "rotter"],
+      "influenced": ["dweck", "graham"]
+    },
+    {
+      "id": "dweck",
+      "name": "キャロル・ドウェック",
+      "name_en": "Carol Dweck",
+      "birth_year": 1946,
+      "nationality": "American",
+      "affiliation": "Stanford University",
+      "field": "Social Psychology, Developmental Psychology",
+      "contributions": [
+        "マインドセット理論の提唱",
+        "暗黙の知能理論の研究",
+        "成長マインドセット介入の開発"
+      ],
+      "key_theories": ["growth-mindset"],
+      "key_publications": [
+        {"title": "Mindset: The New Psychology of Success", "year": 2006, "type": "book"},
+        {"title": "Self-Theories", "year": 1999, "type": "book"}
+      ],
+      "influenced_by": ["weiner", "seligman"],
+      "influenced": ["yeager", "growth-mindset-practitioners"]
+    },
+    {
+      "id": "csikszentmihalyi",
+      "name": "ミハイ・チクセントミハイ",
+      "name_en": "Mihaly Csikszentmihalyi",
+      "birth_year": 1934,
+      "death_year": 2021,
+      "nationality": "Hungarian-American",
+      "affiliation": "University of Chicago, Claremont Graduate University",
+      "field": "Positive Psychology",
+      "contributions": [
+        "フロー理論の提唱",
+        "最適経験の研究",
+        "創造性と幸福の研究"
+      ],
+      "key_theories": ["flow-theory"],
+      "key_publications": [
+        {"title": "Flow: The Psychology of Optimal Experience", "year": 1990, "type": "book"},
+        {"title": "Creativity", "year": 1996, "type": "book"}
+      ],
+      "influenced_by": ["maslow", "rogers"],
+      "influenced": ["nakamura", "positive-psychology-researchers"]
+    },
+    {
+      "id": "reigeluth",
+      "name": "チャールズ・ライゲルース",
+      "name_en": "Charles Reigeluth",
+      "birth_year": 1946,
+      "nationality": "American",
+      "affiliation": "Indiana University",
+      "field": "Instructional Design",
+      "contributions": [
+        "精緻化理論の提唱",
+        "教授理論の統合",
+        "システム的教育変革への貢献"
+      ],
+      "key_theories": ["elaboration-theory"],
+      "key_publications": [
+        {"title": "Instructional-Design Theories and Models", "year": 1983, "type": "book"},
+        {"title": "Elaboration Theory of Instruction", "year": 1979, "type": "article"}
+      ],
+      "influenced_by": ["gagne", "ausubel"],
+      "influenced": ["merrill", "instructional-designers"]
+    },
+    {
+      "id": "merrill",
+      "name": "デイビッド・メリル",
+      "name_en": "David Merrill",
+      "birth_year": 1937,
+      "nationality": "American",
+      "affiliation": "Brigham Young University, Utah State University",
+      "field": "Instructional Design",
+      "contributions": [
+        "教授の第一原理の提唱",
+        "コンポーネント表示理論の開発",
+        "効果的教授の普遍的原理の探求"
+      ],
+      "key_theories": ["first-principles-of-instruction", "component-display-theory"],
+      "key_publications": [
+        {"title": "First Principles of Instruction", "year": 2002, "type": "article"},
+        {"title": "Instructional Design Theory", "year": 1994, "type": "book"}
+      ],
+      "influenced_by": ["gagne", "reigeluth"],
+      "influenced": ["instructional-design-practitioners"]
+    },
+    {
+      "id": "collins",
+      "name": "アラン・コリンズ",
+      "name_en": "Allan Collins",
+      "birth_year": 1937,
+      "nationality": "American",
+      "affiliation": "Northwestern University, BBN Technologies",
+      "field": "Learning Sciences",
+      "contributions": [
+        "認知的徒弟制モデルの開発",
+        "状況的認知の研究",
+        "学習科学分野の確立への貢献"
+      ],
+      "key_theories": ["cognitive-apprenticeship"],
+      "key_publications": [
+        {"title": "Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics", "year": 1989, "type": "article"},
+        {"title": "Rethinking Education in the Age of Technology", "year": 2009, "type": "book"}
+      ],
+      "influenced_by": ["vygotsky", "schon"],
+      "influenced": ["brown", "learning-sciences-researchers"]
+    }
+  ],
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2025-01-26",
+    "total_theorists": 28,
+    "fields": [
+      "Educational Psychology",
+      "Developmental Psychology",
+      "Cognitive Psychology",
+      "Social Psychology",
+      "Motivational Psychology",
+      "Instructional Design",
+      "Adult Education",
+      "Educational Technology",
+      "Learning Sciences"
+    ],
+    "nationalities": ["American", "Australian", "Russian/Soviet", "Swiss", "Canadian", "Hungarian-American", "Swiss-American", "Canadian-American"]
+  }
+}

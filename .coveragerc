@@ -1,0 +1,12 @@
+[run]
+omit = 
+    src/tengin_mcp/scripts/*
+    */tests/*
+    */__pycache__/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise NotImplementedError
+    if TYPE_CHECKING:

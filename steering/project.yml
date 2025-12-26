@@ -1,0 +1,176 @@
+# MUSUBI Project Configuration
+name: TENGIN-GraphRAG
+description: 教育理論に基づいたエビデンスベースの教育コンテンツ生成を実現するGraphRAGシステム
+locale: ja
+version: "1.1.0"
+created: 2025-12-25
+last_updated: 2025-12-26
+
+# Product Context
+product:
+  vision: 教育理論に基づいたエビデンスベースの教育コンテンツ生成を実現する
+  domain: Education Technology / AI
+  target_users:
+    - AIプロダクト開発者
+    - インストラクショナルデザイナー
+    - 教育研究者
+
+# Technology Stack (決定済み)
+tech_stack:
+  approach: decided
+  languages:
+    - python  # 3.11+ メイン開発言語
+  framework:
+    - mcp  # Model Context Protocol Server
+    - FastMCP  # MCP SDK
+  graph_database:
+    selected: neo4j
+    version: "5.x"
+  vector_database:
+    selected: chromadb
+    version: "0.4+"
+  embedding:
+    selected: esperanto  # マルチプロバイダー対応
+    providers:
+      - openai
+      - anthropic
+      - local
+  data_validation:
+    - pydantic>=2.0
+    - pydantic-settings
+
+# Implementation Status
+implementation:
+  status: complete
+  completed_phases:
+    - Phase 1: プロジェクトセットアップ
+    - Phase 2: ドメインモデル（Entities, Value Objects, Errors）
+    - Phase 3: インフラストラクチャ（Adapters, Repositories）
+    - Phase 4: MCPサーバーコア（server.py, lifespan管理）
+    - Phase 5: MCPツール（theory_tools, graph_tools, citation_tools）
+    - Phase 6: MCPリソース（theory_resources）
+    - Phase 7: MCPプロンプト（education_prompts）
+    - Phase 8: テスト（unit, integration）
+    - Phase 9: データシード・検証（Neo4j投入、MCP Inspector確認）
+    - Phase 10: 拡張データ（MECEオントロジー、教授法・文脈データ）
+  current_phase: 全フェーズ完了
+  verification:
+    - neo4j_seed: complete (130 nodes, 303 relationships)
+    - mcp_inspector: verified
+    - claude_desktop_config: configured
+    - integration_tests: passed
+  data_statistics:
+    theories: 38  # 8パラダイム分類
+    theorists: 27
+    concepts: 25
+    methodologies: 15
+    evidence: 15
+    contexts: 10
+    relationships: 303
+    paradigms:
+      - behaviorism: 2
+      - cognitivism: 7
+      - constructivism: 8
+      - social-cognitive: 3
+      - sociocultural: 3
+      - humanistic: 4
+      - instructional: 7
+      - networked: 1
+      - cognitive: 3
+  components:
+    domain:
+      entities:
+        - Theory
+        - Concept
+        - Principle
+        - Theorist
+        - Evidence
+        - Methodology  # 新規追加
+        - Context  # 新規追加
+      value_objects:
+        - TheoryCategory
+        - CitationFormat
+        - EvidenceLevel
+      errors:
+        - DomainError
+        - TheoryNotFoundError
+        - InvalidQueryError
+        - EntityNotFoundError  # 新規追加
+    infrastructure:
+      adapters:
+        - Neo4jAdapter
+        - ChromaDBAdapter
+        - EmbeddingAdapter
+      repositories:
+        - Neo4jTheoryRepository
+        - Neo4jGraphRepository
+    mcp:
+      tools:
+        # Theory Tools
+        - search_theories
+        - get_theory
+        - get_theories_by_category
+        - get_theorist
+        - get_concept
+        - get_principle
+        - get_evidence
+        # Graph Tools
+        - traverse_graph
+        - find_path
+        - get_related_nodes
+        - get_graph_statistics
+        # Citation Tools
+        - cite_theory
+        - compare_theories
+        # Methodology Tools (新規)
+        - search_methodologies
+        - get_methodology
+        - search_contexts
+        - get_context
+        - recommend_methodologies
+        - get_evidence_for_theory
+      resources:
+        - theory://{theory_id}
+        - concept://{concept_id}
+        - theorist://{theorist_id}
+        - principle://{principle_id}
+        - theories://list
+        - categories://list
+      prompts:
+        - lesson_plan
+        - learning_activity
+        - assessment_design
+        - explain_theory
+
+# Requirements Status
+requirements:
+  - id: REQ-001
+    name: Education Theory GraphRAG System
+    status: implemented
+    file: storage/specs/REQ-001-education-theory-graphrag.md
+
+# Design Documents
+design:
+  - id: DESIGN-001
+    name: Architecture Design
+    status: implemented
+    file: storage/specs/DESIGN-001-architecture.md
+  - id: ADR-001
+    name: Technology Stack
+    status: accepted
+    file: storage/specs/ADR-001-technology-stack.md
+  - id: ADR-002
+    name: Graph Schema
+    status: accepted
+    file: storage/specs/ADR-002-graph-schema.md
+
+# Tasks
+tasks:
+  - id: TASKS-001
+    name: Implementation Tasks
+    status: complete
+    file: storage/specs/TASKS-001-implementation.md
+    phases: 8
+    total_tasks: 40
+    estimated_hours: 39
+    completed_tasks: 40

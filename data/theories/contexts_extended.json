@@ -1,0 +1,289 @@
+{
+  "contexts": [
+    {
+      "id": "ctx-higher-education",
+      "name": "高等教育",
+      "name_en": "Higher Education",
+      "education_level": "tertiary",
+      "description": "大学・大学院における教育。専門知識の習得、批判的思考、研究能力の育成を目指す。",
+      "characteristics": [
+        "学習者の自律性が高い",
+        "専門分野への深い探究",
+        "研究と教育の統合",
+        "多様な学習者層"
+      ],
+      "effective_theories": [
+        "self-determination-theory",
+        "problem-based-learning",
+        "experiential-learning",
+        "communities-of-practice",
+        "transformative-learning"
+      ],
+      "effective_methodologies": [
+        "problem-based-learning-method",
+        "case-based-learning-method",
+        "inquiry-based-learning-method",
+        "flipped-classroom-method"
+      ],
+      "challenges": ["大規模クラスでの個別化", "理論と実践の接続", "学習動機の維持"]
+    },
+    {
+      "id": "ctx-k12-education",
+      "name": "初等中等教育",
+      "name_en": "K-12 Education",
+      "education_level": "primary_secondary",
+      "description": "小学校から高等学校までの教育。基礎学力の定着と発達段階に応じた指導が重要。",
+      "characteristics": [
+        "発達段階への配慮が必要",
+        "基礎学力の定着が重視",
+        "構造化された学習環境",
+        "多様な認知発達レベル"
+      ],
+      "effective_theories": [
+        "cognitive-load-theory",
+        "zone-of-proximal-development",
+        "mastery-learning",
+        "direct-instruction",
+        "cooperative-learning"
+      ],
+      "effective_methodologies": [
+        "scaffolded-instruction-method",
+        "direct-instruction-method",
+        "cooperative-learning-method",
+        "retrieval-practice-method"
+      ],
+      "challenges": ["個人差への対応", "動機づけの維持", "発達に適した指導"]
+    },
+    {
+      "id": "ctx-corporate-training",
+      "name": "企業研修",
+      "name_en": "Corporate Training",
+      "education_level": "professional",
+      "description": "企業における従業員の能力開発。即時的な業務適用と成果が求められる。",
+      "characteristics": [
+        "成人学習者が対象",
+        "即時の業務適用が期待",
+        "時間・コストの制約",
+        "多様な背景・経験"
+      ],
+      "effective_theories": [
+        "andragogy",
+        "experiential-learning",
+        "social-learning-theory",
+        "situated-learning",
+        "arcs-model"
+      ],
+      "effective_methodologies": [
+        "case-based-learning-method",
+        "peer-tutoring-method",
+        "game-based-learning-method",
+        "flipped-classroom-method"
+      ],
+      "challenges": ["学習転移", "時間確保", "学習と業務のバランス"]
+    },
+    {
+      "id": "ctx-online-learning",
+      "name": "オンライン学習",
+      "name_en": "Online Learning",
+      "education_level": "all",
+      "description": "インターネットを通じた非同期または同期の学習。場所と時間の柔軟性が特徴。",
+      "characteristics": [
+        "物理的距離の克服",
+        "自己ペース学習が可能",
+        "技術的リテラシーが必要",
+        "対面相互作用の制限"
+      ],
+      "effective_theories": [
+        "multimedia-learning-theory",
+        "cognitive-load-theory",
+        "self-determination-theory",
+        "connectivism",
+        "self-regulated-learning"
+      ],
+      "effective_methodologies": [
+        "flipped-classroom-method",
+        "retrieval-practice-method",
+        "spaced-repetition-method"
+      ],
+      "challenges": ["学習者の孤立", "自己調整能力の必要性", "技術的障壁"]
+    },
+    {
+      "id": "ctx-special-education",
+      "name": "特別支援教育",
+      "name_en": "Special Education",
+      "education_level": "specialized",
+      "description": "障害や特別なニーズを持つ学習者への教育。個別化と適応的な指導が不可欠。",
+      "characteristics": [
+        "高度な個別化が必要",
+        "多様なニーズへの対応",
+        "支援技術の活用",
+        "多職種連携"
+      ],
+      "effective_theories": [
+        "cognitive-load-theory",
+        "behaviorism",
+        "zone-of-proximal-development",
+        "mastery-learning",
+        "self-efficacy-theory"
+      ],
+      "effective_methodologies": [
+        "scaffolded-instruction-method",
+        "direct-instruction-method",
+        "peer-tutoring-method"
+      ],
+      "challenges": ["個別ニーズへの対応", "包摂的環境の構築", "適切な評価方法"]
+    },
+    {
+      "id": "ctx-stem-education",
+      "name": "STEM教育",
+      "name_en": "STEM Education",
+      "education_level": "all",
+      "subject_area": "science_technology_engineering_math",
+      "description": "科学・技術・工学・数学の統合的な教育。実践的な問題解決能力の育成を目指す。",
+      "characteristics": [
+        "教科横断的なアプローチ",
+        "実践・プロジェクト重視",
+        "問題解決能力の育成",
+        "創造性とイノベーション"
+      ],
+      "effective_theories": [
+        "constructivism",
+        "problem-based-learning",
+        "discovery-learning",
+        "experiential-learning",
+        "cognitive-apprenticeship"
+      ],
+      "effective_methodologies": [
+        "inquiry-based-learning-method",
+        "project-based-learning-method",
+        "problem-based-learning-method"
+      ],
+      "challenges": ["女性・マイノリティの参加促進", "教師の専門性", "設備・リソース"]
+    },
+    {
+      "id": "ctx-language-learning",
+      "name": "言語学習",
+      "name_en": "Language Learning",
+      "education_level": "all",
+      "subject_area": "languages",
+      "description": "第二言語または外国語の習得。コミュニケーション能力と文化理解の発達を目指す。",
+      "characteristics": [
+        "4技能（読む・書く・聞く・話す）の統合",
+        "実践的なコミュニケーション重視",
+        "文化的要素の理解",
+        "長期的な練習が必要"
+      ],
+      "effective_theories": [
+        "social-learning-theory",
+        "situated-learning",
+        "cognitive-load-theory",
+        "spaced-practice",
+        "testing-effect"
+      ],
+      "effective_methodologies": [
+        "spaced-repetition-method",
+        "retrieval-practice-method",
+        "cooperative-learning-method",
+        "game-based-learning-method"
+      ],
+      "challenges": ["動機づけの維持", "真正なコミュニケーション機会", "文化的障壁"]
+    },
+    {
+      "id": "ctx-medical-education",
+      "name": "医学教育",
+      "name_en": "Medical Education",
+      "education_level": "professional",
+      "subject_area": "medicine",
+      "description": "医師・医療専門職の養成。臨床能力、問題解決力、倫理的判断力の育成を目指す。",
+      "characteristics": [
+        "知識と臨床スキルの統合",
+        "高いステークスの環境",
+        "継続的専門職発達",
+        "多職種連携"
+      ],
+      "effective_theories": [
+        "problem-based-learning",
+        "cognitive-apprenticeship",
+        "experiential-learning",
+        "situated-learning",
+        "self-efficacy-theory"
+      ],
+      "effective_methodologies": [
+        "problem-based-learning-method",
+        "case-based-learning-method",
+        "scaffolded-instruction-method"
+      ],
+      "challenges": ["理論と臨床の統合", "評価の標準化", "燃え尽き症候群"]
+    },
+    {
+      "id": "ctx-early-childhood",
+      "name": "幼児教育",
+      "name_en": "Early Childhood Education",
+      "education_level": "early_childhood",
+      "description": "就学前の幼児を対象とした教育。遊びを通じた発達支援と社会性の育成を目指す。",
+      "characteristics": [
+        "遊びを通じた学び",
+        "発達段階への高い配慮",
+        "情緒的安定の重視",
+        "家庭との連携"
+      ],
+      "effective_theories": [
+        "cognitive-development-theory",
+        "social-constructivism",
+        "zone-of-proximal-development",
+        "multiple-intelligences",
+        "flow-theory"
+      ],
+      "effective_methodologies": [
+        "scaffolded-instruction-method",
+        "game-based-learning-method"
+      ],
+      "challenges": ["個人差への対応", "評価の難しさ", "保護者との連携"]
+    },
+    {
+      "id": "ctx-adult-literacy",
+      "name": "成人識字教育",
+      "name_en": "Adult Literacy Education",
+      "education_level": "adult",
+      "description": "読み書き能力を持たない成人への基礎教育。生活改善と社会参加の促進を目指す。",
+      "characteristics": [
+        "学習者の経験を活かす",
+        "実生活との関連重視",
+        "自尊心への配慮",
+        "柔軟なスケジュール"
+      ],
+      "effective_theories": [
+        "andragogy",
+        "self-efficacy-theory",
+        "transformative-learning",
+        "self-determination-theory"
+      ],
+      "effective_methodologies": [
+        "scaffolded-instruction-method",
+        "peer-tutoring-method",
+        "direct-instruction-method"
+      ],
+      "challenges": ["スティグマへの対処", "時間確保", "学習継続の支援"]
+    }
+  ],
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2025-01-26",
+    "total_contexts": 10,
+    "education_levels": [
+      "early_childhood",
+      "primary_secondary",
+      "tertiary",
+      "professional",
+      "adult",
+      "specialized",
+      "all"
+    ],
+    "subject_areas": [
+      "general",
+      "science_technology_engineering_math",
+      "languages",
+      "medicine"
+    ]
+  }
+}

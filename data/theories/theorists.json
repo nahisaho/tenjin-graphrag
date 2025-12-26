@@ -1,0 +1,324 @@
+{
+  "theorists": [
+    {
+      "id": "john-sweller",
+      "name": "ジョン・スウェラー",
+      "name_en": "John Sweller",
+      "birth_year": 1946,
+      "nationality": "オーストラリア",
+      "affiliation": "ニューサウスウェールズ大学",
+      "biography": "教育心理学者。認知負荷理論の提唱者として知られる。問題解決と学習における認知過程の研究で世界的に著名。",
+      "major_works": ["Cognitive Load Theory (2011)", "Instructional Design for Advanced Learners"]
+    },
+    {
+      "id": "jean-piaget",
+      "name": "ジャン・ピアジェ",
+      "name_en": "Jean Piaget",
+      "birth_year": 1896,
+      "death_year": 1980,
+      "nationality": "スイス",
+      "affiliation": "ジュネーブ大学",
+      "biography": "発達心理学者・認識論者。認知発達理論を提唱し、構成主義の基盤を築いた。子どもの認知発達段階説で知られる。",
+      "major_works": ["知能の心理学", "発生的認識論序説"]
+    },
+    {
+      "id": "lev-vygotsky",
+      "name": "レフ・ヴィゴツキー",
+      "name_en": "Lev Vygotsky",
+      "birth_year": 1896,
+      "death_year": 1934,
+      "nationality": "ソ連（現ベラルーシ）",
+      "affiliation": "モスクワ大学",
+      "biography": "心理学者。社会文化理論を提唱し、発達の最近接領域（ZPD）の概念を確立。言語と思考の関係性の研究で知られる。",
+      "major_works": ["思考と言語", "精神発達の理論"]
+    },
+    {
+      "id": "richard-mayer",
+      "name": "リチャード・メイヤー",
+      "name_en": "Richard E. Mayer",
+      "birth_year": 1947,
+      "nationality": "アメリカ",
+      "affiliation": "カリフォルニア大学サンタバーバラ校",
+      "biography": "教育心理学者。マルチメディア学習理論の提唱者。認知科学に基づく教材設計の原則を体系化。",
+      "major_works": ["Multimedia Learning", "E-Learning and the Science of Instruction"]
+    },
+    {
+      "id": "edward-deci",
+      "name": "エドワード・デシ",
+      "name_en": "Edward L. Deci",
+      "birth_year": 1942,
+      "nationality": "アメリカ",
+      "affiliation": "ロチェスター大学",
+      "biography": "心理学者。リチャード・ライアンとともに自己決定理論を提唱。内発的動機づけの研究で世界的に著名。",
+      "major_works": ["Intrinsic Motivation and Self-Determination in Human Behavior"]
+    },
+    {
+      "id": "benjamin-bloom",
+      "name": "ベンジャミン・ブルーム",
+      "name_en": "Benjamin Bloom",
+      "birth_year": 1913,
+      "death_year": 1999,
+      "nationality": "アメリカ",
+      "affiliation": "シカゴ大学",
+      "biography": "教育心理学者。教育目標の分類体系（ブルームの分類法）を開発。完全習得学習の提唱者としても知られる。",
+      "major_works": ["教育目標の分類学", "人間の特性と学校学習"]
+    },
+    {
+      "id": "robert-gagne",
+      "name": "ロバート・ガニェ",
+      "name_en": "Robert M. Gagné",
+      "birth_year": 1916,
+      "death_year": 2002,
+      "nationality": "アメリカ",
+      "affiliation": "フロリダ州立大学",
+      "biography": "教育心理学者。インストラクショナルデザインの父と呼ばれる。9教授事象と学習成果の5分類を提唱。",
+      "major_works": ["The Conditions of Learning", "Principles of Instructional Design"]
+    },
+    {
+      "id": "charles-reigeluth",
+      "name": "チャールズ・ライゲルース",
+      "name_en": "Charles M. Reigeluth",
+      "birth_year": 1946,
+      "nationality": "アメリカ",
+      "affiliation": "インディアナ大学",
+      "biography": "インストラクショナルデザイン研究者。精緻化理論の提唱者。教授設計理論の体系化に貢献。",
+      "major_works": ["Instructional-Design Theories and Models"]
+    },
+    {
+      "id": "albert-bandura",
+      "name": "アルバート・バンデューラ",
+      "name_en": "Albert Bandura",
+      "birth_year": 1925,
+      "death_year": 2021,
+      "nationality": "カナダ・アメリカ",
+      "affiliation": "スタンフォード大学",
+      "biography": "心理学者。社会的学習理論と自己効力感の概念で知られる。ボボ人形実験で観察学習を実証。心理学史上最も引用される研究者の一人。",
+      "major_works": ["Social Learning Theory", "Self-Efficacy: The Exercise of Control"]
+    },
+    {
+      "id": "david-kolb",
+      "name": "デイヴィッド・コルブ",
+      "name_en": "David A. Kolb",
+      "birth_year": 1939,
+      "nationality": "アメリカ",
+      "affiliation": "ケースウェスタンリザーブ大学",
+      "biography": "教育理論家。経験学習理論と学習スタイル理論の提唱者。経験を基盤とした学習サイクルモデルを開発。",
+      "major_works": ["Experiential Learning: Experience as the Source of Learning and Development"]
+    },
+    {
+      "id": "howard-gardner",
+      "name": "ハワード・ガードナー",
+      "name_en": "Howard Gardner",
+      "birth_year": 1943,
+      "nationality": "アメリカ",
+      "affiliation": "ハーバード大学",
+      "biography": "発達心理学者。多重知能理論の提唱者。従来の単一知能観に挑戦し、人間の能力の多様性を強調。",
+      "major_works": ["Frames of Mind: The Theory of Multiple Intelligences", "Multiple Intelligences: New Horizons"]
+    },
+    {
+      "id": "mihaly-csikszentmihalyi",
+      "name": "ミハイ・チクセントミハイ",
+      "name_en": "Mihaly Csikszentmihalyi",
+      "birth_year": 1934,
+      "death_year": 2021,
+      "nationality": "ハンガリー・アメリカ",
+      "affiliation": "クレアモント大学院大学",
+      "biography": "心理学者。フロー理論の提唱者。最適体験と創造性の研究で知られる。ポジティブ心理学の先駆者の一人。",
+      "major_works": ["Flow: The Psychology of Optimal Experience", "Creativity: Flow and the Psychology of Discovery and Invention"]
+    },
+    {
+      "id": "jean-lave",
+      "name": "ジーン・レイヴ",
+      "name_en": "Jean Lave",
+      "birth_year": 1939,
+      "nationality": "アメリカ",
+      "affiliation": "カリフォルニア大学バークレー校",
+      "biography": "社会人類学者。エティエンヌ・ウェンガーとともに状況的学習理論と正統的周辺参加の概念を提唱。",
+      "major_works": ["Situated Learning: Legitimate Peripheral Participation", "Cognition in Practice"]
+    },
+    {
+      "id": "etienne-wenger",
+      "name": "エティエンヌ・ウェンガー",
+      "name_en": "Etienne Wenger",
+      "birth_year": 1952,
+      "nationality": "スイス・アメリカ",
+      "affiliation": "独立研究者",
+      "biography": "学習理論家。ジーン・レイヴとともに状況的学習理論を提唱。実践共同体（Communities of Practice）の概念で知られる。",
+      "major_works": ["Communities of Practice: Learning, Meaning, and Identity", "Situated Learning"]
+    },
+    {
+      "id": "allan-collins",
+      "name": "アラン・コリンズ",
+      "name_en": "Allan Collins",
+      "birth_year": 1937,
+      "nationality": "アメリカ",
+      "affiliation": "ノースウェスタン大学",
+      "biography": "認知科学者。認知的徒弟制の提唱者の一人。学習科学の発展に大きく貢献。",
+      "major_works": ["Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics"]
+    },
+    {
+      "id": "howard-barrows",
+      "name": "ハワード・バロウズ",
+      "name_en": "Howard Barrows",
+      "birth_year": 1928,
+      "death_year": 2011,
+      "nationality": "アメリカ",
+      "affiliation": "マクマスター大学・南イリノイ大学",
+      "biography": "医学教育者。問題基盤学習（PBL）の先駆者。医学教育における革新的なカリキュラム開発で知られる。",
+      "major_works": ["Problem-Based Learning: An Approach to Medical Education"]
+    },
+    {
+      "id": "hermann-ebbinghaus",
+      "name": "ヘルマン・エビングハウス",
+      "name_en": "Hermann Ebbinghaus",
+      "birth_year": 1850,
+      "death_year": 1909,
+      "nationality": "ドイツ",
+      "affiliation": "ベルリン大学",
+      "biography": "心理学者。記憶の実験的研究の先駆者。忘却曲線と分散効果を発見。無意味綴りを用いた厳密な実験手法を確立。",
+      "major_works": ["Memory: A Contribution to Experimental Psychology"]
+    },
+    {
+      "id": "allan-paivio",
+      "name": "アラン・パイビオ",
+      "name_en": "Allan Paivio",
+      "birth_year": 1925,
+      "death_year": 2016,
+      "nationality": "カナダ",
+      "affiliation": "ウェスタンオンタリオ大学",
+      "biography": "認知心理学者。二重符号化理論の提唱者。イメージと言語の情報処理研究で知られる。",
+      "major_works": ["Imagery and Verbal Processes", "Mental Representations: A Dual Coding Approach"]
+    },
+    {
+      "id": "john-flavell",
+      "name": "ジョン・フラベル",
+      "name_en": "John H. Flavell",
+      "birth_year": 1928,
+      "nationality": "アメリカ",
+      "affiliation": "スタンフォード大学",
+      "biography": "発達心理学者。メタ認知の概念を提唱し体系化。子どもの認知発達研究に大きく貢献。",
+      "major_works": ["Cognitive Development", "The Development of Role-Taking and Communication Skills in Children"]
+    },
+    {
+      "id": "barry-zimmerman",
+      "name": "バリー・ジマーマン",
+      "name_en": "Barry J. Zimmerman",
+      "birth_year": 1942,
+      "death_year": 2019,
+      "nationality": "アメリカ",
+      "affiliation": "ニューヨーク市立大学",
+      "biography": "教育心理学者。自己調整学習理論の主要な研究者。学習における自己効力感の役割の研究で知られる。",
+      "major_works": ["Self-Regulated Learning and Academic Achievement", "Handbook of Self-Regulation of Learning and Performance"]
+    },
+    {
+      "id": "george-siemens",
+      "name": "ジョージ・シーメンス",
+      "name_en": "George Siemens",
+      "birth_year": 1970,
+      "nationality": "カナダ",
+      "affiliation": "テキサス大学アーリントン校",
+      "biography": "教育研究者。コネクティビズムの提唱者。デジタル時代の学習理論とラーニングアナリティクスの研究で知られる。",
+      "major_works": ["Connectivism: A Learning Theory for the Digital Age", "Knowing Knowledge"]
+    },
+    {
+      "id": "randy-garrison",
+      "name": "ランディ・ギャリソン",
+      "name_en": "D. Randy Garrison",
+      "birth_year": 1945,
+      "nationality": "カナダ",
+      "affiliation": "カルガリー大学",
+      "biography": "教育研究者。探究の共同体（CoI）フレームワークの主要な開発者。オンライン・混合学習の研究で知られる。",
+      "major_works": ["E-Learning in the 21st Century", "Thinking Collaboratively"]
+    },
+    {
+      "id": "john-keller",
+      "name": "ジョン・ケラー",
+      "name_en": "John M. Keller",
+      "birth_year": 1938,
+      "nationality": "アメリカ",
+      "affiliation": "フロリダ州立大学",
+      "biography": "インストラクショナルデザイン研究者。ARCSモデルの開発者。動機づけ設計理論の体系化に貢献。",
+      "major_works": ["Motivational Design for Learning and Performance: The ARCS Model Approach"]
+    },
+    {
+      "id": "manu-kapur",
+      "name": "マヌ・カプール",
+      "name_en": "Manu Kapur",
+      "birth_year": 1975,
+      "nationality": "シンガポール・スイス",
+      "affiliation": "ETH チューリッヒ",
+      "biography": "学習科学者。生産的失敗（Productive Failure）の提唱者。問題解決と数学教育の研究で知られる。",
+      "major_works": ["Productive Failure in Learning Math"]
+    },
+    {
+      "id": "jeffrey-karpicke",
+      "name": "ジェフリー・カーピック",
+      "name_en": "Jeffrey D. Karpicke",
+      "birth_year": 1978,
+      "nationality": "アメリカ",
+      "affiliation": "パデュー大学",
+      "biography": "認知心理学者。検索練習（テスト効果）研究の第一人者。学習と記憶のメカニズム研究で知られる。",
+      "major_works": ["Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping"]
+    },
+    {
+      "id": "robert-bjork",
+      "name": "ロバート・ビョーク",
+      "name_en": "Robert A. Bjork",
+      "birth_year": 1939,
+      "nationality": "アメリカ",
+      "affiliation": "カリフォルニア大学ロサンゼルス校",
+      "biography": "認知心理学者。望ましい困難とインターリービングの研究で知られる。学習と記憶研究の世界的権威。",
+      "major_works": ["Memory and Metamemory Considerations in the Training of Human Beings"]
+    },
+    {
+      "id": "carol-dweck",
+      "name": "キャロル・ドゥエック",
+      "name_en": "Carol S. Dweck",
+      "birth_year": 1946,
+      "nationality": "アメリカ",
+      "affiliation": "スタンフォード大学",
+      "biography": "心理学者。マインドセット理論の提唱者。暗黙の知能観と動機づけの研究で世界的に著名。",
+      "major_works": ["Mindset: The New Psychology of Success", "Self-theories: Their Role in Motivation, Personality, and Development"]
+    },
+    {
+      "id": "bernard-weiner",
+      "name": "バーナード・ワイナー",
+      "name_en": "Bernard Weiner",
+      "birth_year": 1935,
+      "nationality": "アメリカ",
+      "affiliation": "カリフォルニア大学ロサンゼルス校",
+      "biography": "社会心理学者。原因帰属理論の主要な発展者。教育における動機づけと情動の研究で知られる。",
+      "major_works": ["An Attributional Theory of Motivation and Emotion", "Human Motivation"]
+    },
+    {
+      "id": "jacquelynne-eccles",
+      "name": "ジャクリーン・エクルズ",
+      "name_en": "Jacquelynne S. Eccles",
+      "birth_year": 1944,
+      "nationality": "アメリカ",
+      "affiliation": "カリフォルニア大学アーバイン校",
+      "biography": "発達心理学者。期待-価値理論の主要な発展者。ジェンダーと達成動機の研究で知られる。",
+      "major_works": ["Expectancies, Values, and Academic Behaviors"]
+    },
+    {
+      "id": "richard-ryan",
+      "name": "リチャード・ライアン",
+      "name_en": "Richard M. Ryan",
+      "birth_year": 1953,
+      "nationality": "アメリカ",
+      "affiliation": "オーストラリアカトリック大学",
+      "biography": "心理学者。エドワード・デシとともに自己決定理論を発展させた。動機づけとウェルビーイングの研究で知られる。",
+      "major_works": ["Self-Determination Theory", "Intrinsic Motivation and Self-Determination in Human Behavior"]
+    },
+    {
+      "id": "david-rose",
+      "name": "デイヴィッド・ローズ",
+      "name_en": "David H. Rose",
+      "birth_year": 1945,
+      "nationality": "アメリカ",
+      "affiliation": "ハーバード大学・CAST",
+      "biography": "神経心理学者・教育者。学習のユニバーサルデザイン（UDL）の共同開発者。すべての学習者へのアクセシビリティ研究で知られる。",
+      "major_works": ["Teaching Every Student in the Digital Age: Universal Design for Learning"]
+    }
+  ]
+}

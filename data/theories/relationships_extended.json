@@ -1,0 +1,540 @@
+{
+  "relationships": [
+    {
+      "id": "rel-001",
+      "source": "cognitive-load-theory",
+      "target": "multimedia-learning-theory",
+      "type": "INFLUENCED",
+      "strength": "strong",
+      "description": "認知負荷理論は、マルチメディア学習理論の理論的基盤を提供した"
+    },
+    {
+      "id": "rel-002",
+      "source": "dual-coding-theory",
+      "target": "multimedia-learning-theory",
+      "type": "INFLUENCED",
+      "strength": "strong",
+      "description": "二重符号化理論は、マルチメディア学習の二重チャネル仮説の基盤となった"
+    },
+    {
+      "id": "rel-003",
+      "source": "constructivism",
+      "target": "social-constructivism",
+      "type": "EXTENDS",
+      "strength": "strong",
+      "description": "社会的構成主義は、構成主義を社会的・文化的文脈に拡張した"
+    },
+    {
+      "id": "rel-004",
+      "source": "vygotsky",
+      "target": "zone-of-proximal-development",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ヴィゴツキーは発達の最近接領域概念を提唱した"
+    },
+    {
+      "id": "rel-005",
+      "source": "piaget",
+      "target": "cognitive-development-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ピアジェは認知発達段階理論を確立した"
+    },
+    {
+      "id": "rel-006",
+      "source": "piaget",
+      "target": "constructivism",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ピアジェは構成主義的認識論の基礎を築いた"
+    },
+    {
+      "id": "rel-007",
+      "source": "bandura",
+      "target": "social-learning-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "バンデューラは社会的学習理論を確立した"
+    },
+    {
+      "id": "rel-008",
+      "source": "bandura",
+      "target": "self-efficacy-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "バンデューラは自己効力感概念を提唱した"
+    },
+    {
+      "id": "rel-009",
+      "source": "social-learning-theory",
+      "target": "self-efficacy-theory",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "自己効力感は社会的学習理論の中核概念として発展した"
+    },
+    {
+      "id": "rel-010",
+      "source": "deci",
+      "target": "self-determination-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "デシとライアンは自己決定理論を共同で提唱した"
+    },
+    {
+      "id": "rel-011",
+      "source": "ryan",
+      "target": "self-determination-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ライアンとデシは自己決定理論を共同で提唱した"
+    },
+    {
+      "id": "rel-012",
+      "source": "skinner",
+      "target": "operant-conditioning",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "スキナーはオペラント条件づけ理論を体系化した"
+    },
+    {
+      "id": "rel-013",
+      "source": "skinner",
+      "target": "behaviorism",
+      "type": "DEVELOPED",
+      "strength": "strong",
+      "description": "スキナーは行動主義を発展させ、急進的行動主義を確立した"
+    },
+    {
+      "id": "rel-014",
+      "source": "behaviorism",
+      "target": "operant-conditioning",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "オペラント条件づけは行動主義の主要な学習メカニズムである"
+    },
+    {
+      "id": "rel-015",
+      "source": "sweller",
+      "target": "cognitive-load-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "スウェラーは認知負荷理論を提唱した"
+    },
+    {
+      "id": "rel-016",
+      "source": "mayer",
+      "target": "multimedia-learning-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "メイヤーはマルチメディア学習理論を体系化した"
+    },
+    {
+      "id": "rel-017",
+      "source": "bloom",
+      "target": "blooms-taxonomy",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ブルームは教育目標の分類体系を開発した"
+    },
+    {
+      "id": "rel-018",
+      "source": "bloom",
+      "target": "mastery-learning",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ブルームは完全習得学習モデルを提唱した"
+    },
+    {
+      "id": "rel-019",
+      "source": "gagne",
+      "target": "gagne-nine-events",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ガニェは9教授事象を提唱した"
+    },
+    {
+      "id": "rel-020",
+      "source": "kolb",
+      "target": "experiential-learning",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "コルブは経験学習モデルを体系化した"
+    },
+    {
+      "id": "rel-021",
+      "source": "gardner",
+      "target": "multiple-intelligences",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ガードナーは多重知能理論を提唱した"
+    },
+    {
+      "id": "rel-022",
+      "source": "keller",
+      "target": "arcs-model",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ケラーはARCSモデルを開発した"
+    },
+    {
+      "id": "rel-023",
+      "source": "expectancy-value-theory",
+      "target": "arcs-model",
+      "type": "INFLUENCED",
+      "strength": "moderate",
+      "description": "期待価値理論はARCSモデルの理論的基盤の一つとなった"
+    },
+    {
+      "id": "rel-024",
+      "source": "lave",
+      "target": "situated-learning",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "レイヴは状況的学習理論を提唱した"
+    },
+    {
+      "id": "rel-025",
+      "source": "wenger",
+      "target": "situated-learning",
+      "type": "DEVELOPED",
+      "strength": "strong",
+      "description": "ウェンガーは状況的学習理論の発展に貢献した"
+    },
+    {
+      "id": "rel-026",
+      "source": "wenger",
+      "target": "communities-of-practice",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ウェンガーは実践共同体概念を発展させた"
+    },
+    {
+      "id": "rel-027",
+      "source": "situated-learning",
+      "target": "communities-of-practice",
+      "type": "EXTENDS",
+      "strength": "strong",
+      "description": "実践共同体は状況的学習の概念を組織学習に拡張した"
+    },
+    {
+      "id": "rel-028",
+      "source": "mezirow",
+      "target": "transformative-learning",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "メジローは変容的学習理論を提唱した"
+    },
+    {
+      "id": "rel-029",
+      "source": "knowles",
+      "target": "andragogy",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ノウルズはアンドラゴジー概念を体系化した"
+    },
+    {
+      "id": "rel-030",
+      "source": "siemens",
+      "target": "connectivism",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "シーメンスはコネクティビズムを提唱した"
+    },
+    {
+      "id": "rel-031",
+      "source": "dweck",
+      "target": "growth-mindset",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ドウェックは成長マインドセット理論を提唱した"
+    },
+    {
+      "id": "rel-032",
+      "source": "csikszentmihalyi",
+      "target": "flow-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "チクセントミハイはフロー理論を提唱した"
+    },
+    {
+      "id": "rel-033",
+      "source": "weiner",
+      "target": "attribution-theory",
+      "type": "DEVELOPED",
+      "strength": "strong",
+      "description": "ワイナーは帰属理論を教育に応用・発展させた"
+    },
+    {
+      "id": "rel-034",
+      "source": "atkinson",
+      "target": "expectancy-value-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "アトキンソンは期待価値理論を体系化した"
+    },
+    {
+      "id": "rel-035",
+      "source": "reigeluth",
+      "target": "elaboration-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ライゲルースは精緻化理論を提唱した"
+    },
+    {
+      "id": "rel-036",
+      "source": "merrill",
+      "target": "first-principles-of-instruction",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "メリルは教授の第一原理を提唱した"
+    },
+    {
+      "id": "rel-037",
+      "source": "collins",
+      "target": "cognitive-apprenticeship",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "コリンズは認知的徒弟制モデルを開発した"
+    },
+    {
+      "id": "rel-038",
+      "source": "bruner",
+      "target": "discovery-learning",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "ブルーナーは発見学習を提唱した"
+    },
+    {
+      "id": "rel-039",
+      "source": "paivio",
+      "target": "dual-coding-theory",
+      "type": "PROPOSED",
+      "strength": "strong",
+      "description": "パイヴィオは二重符号化理論を提唱した"
+    },
+    {
+      "id": "rel-040",
+      "source": "behaviorism",
+      "target": "cognitivism",
+      "type": "CONTRADICTS",
+      "strength": "moderate",
+      "description": "認知主義は行動主義の刺激-反応モデルに対し、内的認知過程の重要性を主張した"
+    },
+    {
+      "id": "rel-041",
+      "source": "discovery-learning",
+      "target": "direct-instruction",
+      "type": "CONTRADICTS",
+      "strength": "moderate",
+      "description": "発見学習と直接教授法は学習者の主導性について対照的な立場をとる"
+    },
+    {
+      "id": "rel-042",
+      "source": "constructivism",
+      "target": "experiential-learning",
+      "type": "COMPLEMENTS",
+      "strength": "strong",
+      "description": "経験学習は構成主義の知識構築の視点を経験の変換プロセスとして具体化した"
+    },
+    {
+      "id": "rel-043",
+      "source": "zone-of-proximal-development",
+      "target": "cognitive-apprenticeship",
+      "type": "INFLUENCED",
+      "strength": "strong",
+      "description": "ZPDの概念は認知的徒弟制のスキャフォールディング設計に影響を与えた"
+    },
+    {
+      "id": "rel-044",
+      "source": "self-efficacy-theory",
+      "target": "arcs-model",
+      "type": "INFLUENCED",
+      "strength": "moderate",
+      "description": "自己効力感の概念はARCSモデルのConfidence要素の理論的基盤となった"
+    },
+    {
+      "id": "rel-045",
+      "source": "attribution-theory",
+      "target": "growth-mindset",
+      "type": "INFLUENCED",
+      "strength": "moderate",
+      "description": "帰属理論はマインドセット理論の発展に影響を与えた"
+    },
+    {
+      "id": "rel-046",
+      "source": "self-determination-theory",
+      "target": "flow-theory",
+      "type": "COMPLEMENTS",
+      "strength": "moderate",
+      "description": "両理論は内発的動機づけの異なる側面を説明し、相補的な関係にある"
+    },
+    {
+      "id": "rel-047",
+      "source": "piaget",
+      "target": "bruner",
+      "type": "INFLUENCED",
+      "strength": "strong",
+      "description": "ピアジェの発達理論はブルーナーの教育理論に大きな影響を与えた"
+    },
+    {
+      "id": "rel-048",
+      "source": "piaget",
+      "target": "kolb",
+      "type": "INFLUENCED",
+      "strength": "moderate",
+      "description": "ピアジェの認知発達理論はコルブの経験学習モデルに影響を与えた"
+    },
+    {
+      "id": "rel-049",
+      "source": "vygotsky",
+      "target": "lave",
+      "type": "INFLUENCED",
+      "strength": "strong",
+      "description": "ヴィゴツキーの社会文化理論はレイヴの状況的学習理論に影響を与えた"
+    },
+    {
+      "id": "rel-050",
+      "source": "skinner",
+      "target": "bandura",
+      "type": "INFLUENCED",
+      "strength": "moderate",
+      "description": "スキナーの行動主義はバンデューラの初期の研究に影響を与えたが、後に認知的側面を強調した"
+    },
+    {
+      "id": "rel-051",
+      "source": "cognitive-load-theory",
+      "target": "working-memory",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "ワーキングメモリは認知負荷理論の中核概念である"
+    },
+    {
+      "id": "rel-052",
+      "source": "cognitive-load-theory",
+      "target": "schema",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "スキーマは認知負荷理論における長期記憶の構成要素である"
+    },
+    {
+      "id": "rel-053",
+      "source": "self-determination-theory",
+      "target": "intrinsic-motivation",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "内発的動機づけは自己決定理論の中核概念である"
+    },
+    {
+      "id": "rel-054",
+      "source": "self-determination-theory",
+      "target": "autonomy",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "自律性は自己決定理論の3基本欲求の1つである"
+    },
+    {
+      "id": "rel-055",
+      "source": "zone-of-proximal-development",
+      "target": "scaffolding",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "足場かけはZPDにおける支援の方法論である"
+    },
+    {
+      "id": "rel-056",
+      "source": "social-learning-theory",
+      "target": "observational-learning",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "観察学習は社会的学習理論の主要な学習メカニズムである"
+    },
+    {
+      "id": "rel-057",
+      "source": "experiential-learning",
+      "target": "reflection",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "省察は経験学習サイクルの重要な段階である"
+    },
+    {
+      "id": "rel-058",
+      "source": "expectancy-value-theory",
+      "target": "expectancy",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "成功期待は期待価値理論の主要構成要素である"
+    },
+    {
+      "id": "rel-059",
+      "source": "expectancy-value-theory",
+      "target": "task-value",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "課題価値は期待価値理論の主要構成要素である"
+    },
+    {
+      "id": "rel-060",
+      "source": "flow-theory",
+      "target": "flow-state",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "フロー状態はフロー理論の中核概念である"
+    },
+    {
+      "id": "rel-061",
+      "source": "problem-based-learning",
+      "target": "transfer",
+      "type": "OPERATIONALIZES",
+      "strength": "strong",
+      "description": "PBLは知識の転移を促進する教授法として転移概念を操作化している"
+    },
+    {
+      "id": "rel-062",
+      "source": "situated-learning",
+      "target": "legitimate-peripheral-participation",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "正統的周辺参加は状況的学習の中核概念である"
+    },
+    {
+      "id": "rel-063",
+      "source": "transformative-learning",
+      "target": "perspective-transformation",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "視点変容は変容的学習の中核的成果である"
+    },
+    {
+      "id": "rel-064",
+      "source": "multimedia-learning-theory",
+      "target": "dual-channel",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "二重チャネルはマルチメディア学習理論の基本前提である"
+    },
+    {
+      "id": "rel-065",
+      "source": "multimedia-learning-theory",
+      "target": "active-processing",
+      "type": "INCLUDES_CONCEPT",
+      "strength": "strong",
+      "description": "能動的処理はマルチメディア学習理論の3前提の1つである"
+    }
+  ],
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2025-01-26",
+    "total_relationships": 65,
+    "relationship_types": {
+      "PROPOSED": "理論家が理論を提唱した関係",
+      "DEVELOPED": "理論家が既存理論を発展させた関係",
+      "INFLUENCED": "理論/人物が他の理論/人物に影響を与えた関係",
+      "EXTENDS": "理論が他の理論を拡張した関係",
+      "CONTRADICTS": "理論間で対立する立場の関係",
+      "COMPLEMENTS": "理論間で相補的な関係",
+      "INCLUDES_CONCEPT": "理論が概念を含む関係",
+      "OPERATIONALIZES": "教授法が概念を操作化する関係"
+    },
+    "strength_levels": ["strong", "moderate", "weak"]
+  }
+}

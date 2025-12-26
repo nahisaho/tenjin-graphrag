@@ -1,0 +1,1070 @@
+{
+  "relationships": [
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "cognitive-load-theory",
+      "to_id": "john-sweller",
+      "properties": {
+        "year": 1988
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "constructivism",
+      "to_id": "jean-piaget",
+      "properties": {
+        "contribution": "認知発達理論を基盤として構成主義の基礎を確立"
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "zone-of-proximal-development",
+      "to_id": "lev-vygotsky",
+      "properties": {
+        "year": 1978
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "richard-mayer",
+      "properties": {
+        "year": 2001
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "self-determination-theory",
+      "to_id": "edward-deci",
+      "properties": {
+        "year": 1985,
+        "co_theorist": "richard-ryan"
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "self-determination-theory",
+      "to_id": "richard-ryan",
+      "properties": {
+        "year": 1985,
+        "co_theorist": "edward-deci"
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "blooms-taxonomy",
+      "to_id": "benjamin-bloom",
+      "properties": {
+        "year": 1956
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "gagne-nine-events",
+      "to_id": "robert-gagne",
+      "properties": {
+        "year": 1965
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "elaboration-theory",
+      "to_id": "charles-reigeluth",
+      "properties": {
+        "year": 1979
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "social-learning-theory",
+      "to_id": "albert-bandura",
+      "properties": {
+        "year": 1977
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "experiential-learning-theory",
+      "to_id": "david-kolb",
+      "properties": {
+        "year": 1984
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "multiple-intelligences",
+      "to_id": "howard-gardner",
+      "properties": {
+        "year": 1983
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "flow-theory",
+      "to_id": "mihaly-csikszentmihalyi",
+      "properties": {
+        "year": 1990
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "situated-learning",
+      "to_id": "jean-lave",
+      "properties": {
+        "year": 1991,
+        "co_theorist": "etienne-wenger"
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "situated-learning",
+      "to_id": "etienne-wenger",
+      "properties": {
+        "year": 1991,
+        "co_theorist": "jean-lave"
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "cognitive-apprenticeship",
+      "to_id": "allan-collins",
+      "properties": {
+        "year": 1989
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "problem-based-learning",
+      "to_id": "howard-barrows",
+      "properties": {
+        "year": 1969
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "mastery-learning",
+      "to_id": "benjamin-bloom",
+      "properties": {
+        "year": 1968
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "spaced-repetition",
+      "to_id": "hermann-ebbinghaus",
+      "properties": {
+        "year": 1885
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "dual-coding-theory",
+      "to_id": "allan-paivio",
+      "properties": {
+        "year": 1971
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "metacognition",
+      "to_id": "john-flavell",
+      "properties": {
+        "year": 1979
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "self-regulated-learning",
+      "to_id": "barry-zimmerman",
+      "properties": {
+        "year": 1989
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "connectivism",
+      "to_id": "george-siemens",
+      "properties": {
+        "year": 2005
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "community-of-inquiry",
+      "to_id": "randy-garrison",
+      "properties": {
+        "year": 2000
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "arcs-model",
+      "to_id": "john-keller",
+      "properties": {
+        "year": 1987
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "productive-failure",
+      "to_id": "manu-kapur",
+      "properties": {
+        "year": 2008
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "testing-effect",
+      "to_id": "jeffrey-karpicke",
+      "properties": {
+        "year": 2006
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "desirable-difficulties",
+      "to_id": "robert-bjork",
+      "properties": {
+        "year": 1994
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "interleaving",
+      "to_id": "robert-bjork",
+      "properties": {
+        "year": 2007
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "growth-mindset",
+      "to_id": "carol-dweck",
+      "properties": {
+        "year": 2006
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "attribution-theory",
+      "to_id": "bernard-weiner",
+      "properties": {
+        "year": 1985
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "expectancy-value-theory",
+      "to_id": "jacquelynne-eccles",
+      "properties": {
+        "year": 1983
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "universal-design-learning",
+      "to_id": "david-rose",
+      "properties": {
+        "year": 2002
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "cognitive-development-theory",
+      "to_id": "jean-piaget",
+      "properties": {
+        "year": 1952
+      }
+    },
+    {
+      "type": "PROPOSED_BY",
+      "from_id": "sociocultural-theory",
+      "to_id": "lev-vygotsky",
+      "properties": {
+        "year": 1962
+      }
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "cognitive-load-theory",
+      "to_id": "intrinsic-load"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "cognitive-load-theory",
+      "to_id": "extraneous-load"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "cognitive-load-theory",
+      "to_id": "germane-load"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "cognitive-load-theory",
+      "to_id": "schema"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "cognitive-load-theory",
+      "to_id": "worked-example"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "zone-of-proximal-development",
+      "to_id": "scaffolding"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "zone-of-proximal-development",
+      "to_id": "fading"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "constructivism",
+      "to_id": "scaffolding"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "constructivism",
+      "to_id": "schema"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "constructivism",
+      "to_id": "prior-knowledge"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "constructivism",
+      "to_id": "active-learning"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "dual-channel"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "multiple-representations"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "self-determination-theory",
+      "to_id": "intrinsic-motivation"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "self-determination-theory",
+      "to_id": "autonomy"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "social-learning-theory",
+      "to_id": "self-efficacy"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "social-learning-theory",
+      "to_id": "observational-learning"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "experiential-learning-theory",
+      "to_id": "experiential-learning-cycle"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "flow-theory",
+      "to_id": "flow-state"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "flow-theory",
+      "to_id": "intrinsic-motivation"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "situated-learning",
+      "to_id": "legitimate-peripheral-participation"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "cognitive-apprenticeship",
+      "to_id": "scaffolding"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "cognitive-apprenticeship",
+      "to_id": "fading"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "metacognition",
+      "to_id": "metacognitive-knowledge"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "metacognition",
+      "to_id": "metacognitive-regulation"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "self-regulated-learning",
+      "to_id": "self-efficacy"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "self-regulated-learning",
+      "to_id": "metacognitive-regulation"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "testing-effect",
+      "to_id": "retrieval-practice"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "spaced-repetition",
+      "to_id": "spacing-effect"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "spaced-repetition",
+      "to_id": "forgetting-curve"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "dual-coding-theory",
+      "to_id": "dual-channel"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "growth-mindset",
+      "to_id": "growth-mindset-concept"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "growth-mindset",
+      "to_id": "fixed-mindset"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "achievement-goal-theory",
+      "to_id": "mastery-orientation"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "achievement-goal-theory",
+      "to_id": "performance-orientation"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "community-of-inquiry",
+      "to_id": "cognitive-presence"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "community-of-inquiry",
+      "to_id": "social-presence"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "community-of-inquiry",
+      "to_id": "teaching-presence"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "problem-based-learning",
+      "to_id": "transfer-of-learning"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "problem-based-learning",
+      "to_id": "active-learning"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "mastery-learning",
+      "to_id": "formative-assessment"
+    },
+    {
+      "type": "HAS_CONCEPT",
+      "from_id": "mastery-learning",
+      "to_id": "feedback"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "cognitive-load-theory",
+      "to_id": "split-attention-effect"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "cognitive-load-theory",
+      "to_id": "redundancy-effect"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "cognitive-load-theory",
+      "to_id": "worked-example-effect"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "cognitive-load-theory",
+      "to_id": "expertise-reversal-effect"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "modality-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "contiguity-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "segmenting-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "personalization-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "signaling-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "pretraining-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "self-determination-theory",
+      "to_id": "autonomy-support"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "gagne-nine-events",
+      "to_id": "nine-events-attention"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "cognitive-apprenticeship",
+      "to_id": "modeling-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "cognitive-apprenticeship",
+      "to_id": "coaching-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "cognitive-apprenticeship",
+      "to_id": "articulation-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "cognitive-apprenticeship",
+      "to_id": "reflection-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "interleaving",
+      "to_id": "interleaving-practice"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "spaced-repetition",
+      "to_id": "spacing-practice"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "testing-effect",
+      "to_id": "retrieval-practice-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "desirable-difficulties",
+      "to_id": "generation-effect"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "desirable-difficulties",
+      "to_id": "elaborative-interrogation"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "problem-based-learning",
+      "to_id": "ill-structured-problem"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "constructivism",
+      "to_id": "collaborative-learning-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "universal-design-learning",
+      "to_id": "udl-multiple-means-representation"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "universal-design-learning",
+      "to_id": "udl-multiple-means-expression"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "universal-design-learning",
+      "to_id": "udl-multiple-means-engagement"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "arcs-model",
+      "to_id": "arcs-attention"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "arcs-model",
+      "to_id": "arcs-relevance"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "arcs-model",
+      "to_id": "arcs-confidence"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "arcs-model",
+      "to_id": "arcs-satisfaction"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "productive-failure",
+      "to_id": "productive-failure-principle"
+    },
+    {
+      "type": "HAS_PRINCIPLE",
+      "from_id": "metacognition",
+      "to_id": "self-explanation-effect"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "cognitive-load-theory",
+      "to_id": "sweller-1988-clt"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "cognitive-load-theory",
+      "to_id": "kalyuga-2003-expertise-reversal"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "multimedia-learning-theory",
+      "to_id": "mayer-2001-modality"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "self-determination-theory",
+      "to_id": "deci-ryan-2000-sdt"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "blooms-taxonomy",
+      "to_id": "anderson-krathwohl-2001"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "social-learning-theory",
+      "to_id": "bandura-1977-self-efficacy"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "social-learning-theory",
+      "to_id": "bandura-1965-bobo-doll"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "experiential-learning-theory",
+      "to_id": "kolb-1984-experiential"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "situated-learning",
+      "to_id": "lave-wenger-1991-situated"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "flow-theory",
+      "to_id": "csikszentmihalyi-1990-flow"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "testing-effect",
+      "to_id": "roediger-karpicke-2006-testing"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "testing-effect",
+      "to_id": "karpicke-roediger-2008-retrieval"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "spaced-repetition",
+      "to_id": "cepeda-2006-spacing"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "interleaving",
+      "to_id": "rohrer-taylor-2007-interleaving"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "desirable-difficulties",
+      "to_id": "bjork-1994-desirable-difficulties"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "productive-failure",
+      "to_id": "kapur-2008-productive-failure"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "growth-mindset",
+      "to_id": "dweck-2006-mindset"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "growth-mindset",
+      "to_id": "blackwell-2007-mindset-intervention"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "community-of-inquiry",
+      "to_id": "garrison-2000-coi"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "self-regulated-learning",
+      "to_id": "zimmerman-2002-self-regulated"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "problem-based-learning",
+      "to_id": "barrows-1996-pbl"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "problem-based-learning",
+      "to_id": "albanese-mitchell-1993-pbl-meta"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "mastery-learning",
+      "to_id": "kulik-1990-mastery"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "metacognition",
+      "to_id": "hattie-2008-visible-learning"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "metacognition",
+      "to_id": "flavell-1979-metacognition"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "cognitive-apprenticeship",
+      "to_id": "collins-1989-cognitive-apprenticeship"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "dual-coding-theory",
+      "to_id": "paivio-1991-dual-coding"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "expectancy-value-theory",
+      "to_id": "eccles-2002-expectancy-value"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "arcs-model",
+      "to_id": "keller-1987-arcs"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "attribution-theory",
+      "to_id": "weiner-1985-attribution"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "connectivism",
+      "to_id": "siemens-2005-connectivism"
+    },
+    {
+      "type": "SUPPORTED_BY",
+      "from_id": "universal-design-learning",
+      "to_id": "rose-meyer-2002-udl"
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "cognitive-load-theory",
+      "to_id": "multimedia-learning-theory",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論とも認知心理学に基づき、ワーキングメモリの制限を前提とした教材設計を提唱"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "cognitive-load-theory",
+      "to_id": "dual-coding-theory",
+      "properties": {
+        "relationship": "foundational",
+        "description": "二重符号化理論はマルチメディア学習と認知負荷理論の理論的基盤の一つ"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "constructivism",
+      "to_id": "zone-of-proximal-development",
+      "properties": {
+        "relationship": "foundational",
+        "description": "ZPDは構成主義の社会的側面を具体化した概念"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "constructivism",
+      "to_id": "problem-based-learning",
+      "properties": {
+        "relationship": "application",
+        "description": "PBLは構成主義の原理を具体的な教授法として実現"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "constructivism",
+      "to_id": "situated-learning",
+      "properties": {
+        "relationship": "extension",
+        "description": "状況的学習は構成主義を社会的・文脈的側面から発展"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "blooms-taxonomy",
+      "to_id": "gagne-nine-events",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論とも体系的な教授設計を支援"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "blooms-taxonomy",
+      "to_id": "mastery-learning",
+      "properties": {
+        "relationship": "foundational",
+        "description": "ブルームは両方の理論の提唱者であり、目標分類が完全習得学習の基盤"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "social-learning-theory",
+      "to_id": "self-regulated-learning",
+      "properties": {
+        "relationship": "foundational",
+        "description": "バンデューラの自己効力感が自己調整学習の中心概念の一つ"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "social-learning-theory",
+      "to_id": "cognitive-apprenticeship",
+      "properties": {
+        "relationship": "complementary",
+        "description": "観察学習とモデリングが認知的徒弟制の基盤"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "zone-of-proximal-development",
+      "to_id": "cognitive-apprenticeship",
+      "properties": {
+        "relationship": "application",
+        "description": "認知的徒弟制はZPDの概念を認知的学習に応用"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "situated-learning",
+      "to_id": "cognitive-apprenticeship",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論とも実践的文脈での学習と参加を重視"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "self-determination-theory",
+      "to_id": "flow-theory",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論とも内発的動機づけと最適体験を扱う"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "self-determination-theory",
+      "to_id": "arcs-model",
+      "properties": {
+        "relationship": "application",
+        "description": "ARCSモデルは自己決定理論の原理を教材設計に応用"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "metacognition",
+      "to_id": "self-regulated-learning",
+      "properties": {
+        "relationship": "foundational",
+        "description": "メタ認知は自己調整学習の中核的構成要素"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "testing-effect",
+      "to_id": "desirable-difficulties",
+      "properties": {
+        "relationship": "example",
+        "description": "テスト効果は望ましい困難の代表的な例"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "spaced-repetition",
+      "to_id": "desirable-difficulties",
+      "properties": {
+        "relationship": "example",
+        "description": "分散学習は望ましい困難の代表的な例"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "interleaving",
+      "to_id": "desirable-difficulties",
+      "properties": {
+        "relationship": "example",
+        "description": "インターリービングは望ましい困難の代表的な例"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "productive-failure",
+      "to_id": "desirable-difficulties",
+      "properties": {
+        "relationship": "related",
+        "description": "生産的失敗は望ましい困難と関連する概念"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "growth-mindset",
+      "to_id": "attribution-theory",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論とも能力への信念と動機づけの関係を扱う"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "growth-mindset",
+      "to_id": "self-efficacy",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両概念とも能力に対する信念と学習への影響を扱う"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "expectancy-value-theory",
+      "to_id": "achievement-goal-theory",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論とも達成動機の認知的側面を扱う"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "connectivism",
+      "to_id": "community-of-inquiry",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論ともオンライン学習環境での学習を扱う"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "experiential-learning-theory",
+      "to_id": "problem-based-learning",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論とも経験からの能動的学習を重視"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "cognitive-development-theory",
+      "to_id": "constructivism",
+      "properties": {
+        "relationship": "foundational",
+        "description": "ピアジェの認知発達理論は構成主義の基盤"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "sociocultural-theory",
+      "to_id": "zone-of-proximal-development",
+      "properties": {
+        "relationship": "foundational",
+        "description": "ZPDはヴィゴツキーの社会文化理論の中心概念"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "sociocultural-theory",
+      "to_id": "situated-learning",
+      "properties": {
+        "relationship": "extension",
+        "description": "状況的学習は社会文化理論を発展させた"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "universal-design-learning",
+      "to_id": "multiple-intelligences",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両理論とも学習者の多様性への対応を重視"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "from_id": "addie-model",
+      "to_id": "gagne-nine-events",
+      "properties": {
+        "relationship": "complementary",
+        "description": "両者ともインストラクショナルデザインの体系的アプローチ"
+      }
+    }
+  ]
+}

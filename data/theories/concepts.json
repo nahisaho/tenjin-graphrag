@@ -1,0 +1,400 @@
+{
+  "concepts": [
+    {
+      "id": "intrinsic-load",
+      "name": "内的負荷",
+      "name_en": "Intrinsic Load",
+      "definition": "学習内容そのものの複雑さに起因する認知負荷。要素間の相互作用（element interactivity）の多さによって決まり、学習内容を変更しない限り削減できない。",
+      "examples": [
+        "外国語の文法規則を学ぶ際の負荷",
+        "物理学の複数の概念を同時に理解する負荷",
+        "プログラミングの制御構造を学ぶ際の負荷"
+      ],
+      "related_theory_ids": ["cognitive-load-theory"]
+    },
+    {
+      "id": "extraneous-load",
+      "name": "外的負荷",
+      "name_en": "Extraneous Load",
+      "definition": "不適切な教材設計や学習環境に起因する不必要な認知負荷。教材設計の改善によって削減可能。",
+      "examples": [
+        "図と説明文が離れて配置されている場合の負荷",
+        "冗長な情報の処理に費やされる負荷",
+        "ナビゲーションの複雑さによる負荷"
+      ],
+      "related_theory_ids": ["cognitive-load-theory"]
+    },
+    {
+      "id": "germane-load",
+      "name": "適合的負荷",
+      "name_en": "Germane Load",
+      "definition": "スキーマの獲得と自動化に直接貢献する認知負荷。学習に有益な負荷であり、適切な教材設計によって促進される。",
+      "examples": [
+        "練習問題を解くことでパターンを学習する負荷",
+        "例題を比較検討する際の負荷",
+        "自己説明を行う際の負荷"
+      ],
+      "related_theory_ids": ["cognitive-load-theory"]
+    },
+    {
+      "id": "scaffolding",
+      "name": "足場かけ",
+      "name_en": "Scaffolding",
+      "definition": "学習者が独力では達成困難な課題を遂行できるよう、一時的に提供される支援。学習者の能力向上に伴い、徐々に支援を減少させる（フェーディング）。",
+      "examples": [
+        "問題解決のヒントの提示",
+        "複雑な課題を段階的に分解",
+        "モデルの提示とガイダンス"
+      ],
+      "related_theory_ids": ["zone-of-proximal-development", "constructivism", "cognitive-apprenticeship"]
+    },
+    {
+      "id": "schema",
+      "name": "スキーマ",
+      "name_en": "Schema",
+      "definition": "長期記憶に蓄えられた、組織化された知識構造。新しい情報の理解と記憶を助け、自動化によってワーキングメモリの負荷を軽減する。",
+      "examples": [
+        "数学の問題解決パターン",
+        "テキストのジャンルスキーマ",
+        "日常的な行動のスクリプト"
+      ],
+      "related_theory_ids": ["cognitive-load-theory", "constructivism"]
+    },
+    {
+      "id": "dual-channel",
+      "name": "二重チャネル",
+      "name_en": "Dual Channel",
+      "definition": "情報処理において、視覚・絵画チャネルと聴覚・言語チャネルの2つの独立したチャネルがあるという前提。両チャネルを効果的に活用することで学習効果が向上する。",
+      "examples": [
+        "ナレーション付きアニメーション",
+        "図表と音声解説の組み合わせ",
+        "動画と字幕の併用"
+      ],
+      "related_theory_ids": ["multimedia-learning-theory", "dual-coding-theory"]
+    },
+    {
+      "id": "intrinsic-motivation",
+      "name": "内発的動機づけ",
+      "name_en": "Intrinsic Motivation",
+      "definition": "活動そのものから得られる満足感や興味に基づく動機づけ。外的報酬がなくても行動を継続させる原動力となる。",
+      "examples": [
+        "知的好奇心からの学習",
+        "課題達成の喜び",
+        "創造活動への没頭"
+      ],
+      "related_theory_ids": ["self-determination-theory", "flow-theory"]
+    },
+    {
+      "id": "autonomy",
+      "name": "自律性",
+      "name_en": "Autonomy",
+      "definition": "自己決定理論における3つの基本的心理欲求の一つ。自分の行動を自ら選択し、コントロールしているという感覚。",
+      "examples": [
+        "学習内容の選択権",
+        "学習ペースの自己調整",
+        "目標設定への参加"
+      ],
+      "related_theory_ids": ["self-determination-theory"]
+    },
+    {
+      "id": "self-efficacy",
+      "name": "自己効力感",
+      "name_en": "Self-Efficacy",
+      "definition": "特定の課題を達成できるという自己への信念。バンデューラによって提唱され、動機づけ、行動選択、努力、持続性に影響する。",
+      "examples": [
+        "数学の問題が解けるという自信",
+        "プレゼンテーションをうまくできるという確信",
+        "新しいスキルを習得できるという信念"
+      ],
+      "related_theory_ids": ["social-learning-theory", "self-regulated-learning"]
+    },
+    {
+      "id": "observational-learning",
+      "name": "観察学習",
+      "name_en": "Observational Learning",
+      "definition": "他者の行動とその結果を観察することで学習が成立するプロセス。注意、保持、運動再生、動機づけの4つの過程から構成される。",
+      "examples": [
+        "教師のデモンストレーションを見て学ぶ",
+        "熟練者の作業を観察してスキルを習得",
+        "動画チュートリアルでの学習"
+      ],
+      "related_theory_ids": ["social-learning-theory"]
+    },
+    {
+      "id": "experiential-learning-cycle",
+      "name": "経験学習サイクル",
+      "name_en": "Experiential Learning Cycle",
+      "definition": "コルブの経験学習理論における4段階の循環モデル。具体的経験→省察的観察→抽象的概念化→能動的実験のサイクルを通じて学習が深化する。",
+      "examples": [
+        "実験を行い、結果を振り返り、理論を形成し、次の実験を計画",
+        "インターンシップでの体験学習",
+        "アクションラーニングのサイクル"
+      ],
+      "related_theory_ids": ["experiential-learning-theory"]
+    },
+    {
+      "id": "flow-state",
+      "name": "フロー状態",
+      "name_en": "Flow State",
+      "definition": "活動に完全に没入し、時間の感覚を忘れるほど集中している最適体験の状態。挑戦とスキルが高いレベルでバランスした時に生じる。",
+      "examples": [
+        "難しいが達成可能なゲームに没頭",
+        "創作活動への深い集中",
+        "適切な難易度の課題への取り組み"
+      ],
+      "related_theory_ids": ["flow-theory"]
+    },
+    {
+      "id": "legitimate-peripheral-participation",
+      "name": "正統的周辺参加",
+      "name_en": "Legitimate Peripheral Participation",
+      "definition": "学習者が実践共同体の周辺から参加を始め、徐々に中心的な参加者になっていくプロセス。学習は共同体への参加の深化として捉えられる。",
+      "examples": [
+        "新人が先輩の補助から始めて徐々に独立する",
+        "研究室での見習い研究者の成長",
+        "職人の徒弟制度"
+      ],
+      "related_theory_ids": ["situated-learning", "cognitive-apprenticeship"]
+    },
+    {
+      "id": "metacognitive-knowledge",
+      "name": "メタ認知的知識",
+      "name_en": "Metacognitive Knowledge",
+      "definition": "認知活動に関する知識。人、課題、方略についての知識を含み、学習の計画や方略選択に影響する。",
+      "examples": [
+        "自分は朝の方が集中できるという自己知識",
+        "この課題には時間がかかるという認識",
+        "効果的な暗記方法についての知識"
+      ],
+      "related_theory_ids": ["metacognition", "self-regulated-learning"]
+    },
+    {
+      "id": "metacognitive-regulation",
+      "name": "メタ認知的制御",
+      "name_en": "Metacognitive Regulation",
+      "definition": "認知活動を監視し制御するプロセス。計画、モニタリング、評価の3つの主要な活動から構成される。",
+      "examples": [
+        "学習計画を立てる",
+        "理解度をチェックしながら読む",
+        "学習方略の効果を評価し修正する"
+      ],
+      "related_theory_ids": ["metacognition", "self-regulated-learning"]
+    },
+    {
+      "id": "retrieval-practice",
+      "name": "検索練習",
+      "name_en": "Retrieval Practice",
+      "definition": "学習した情報を能動的に想起する練習。単なる再読よりも記憶の定着と長期保持に効果的であることが実証されている。",
+      "examples": [
+        "フラッシュカードでの自己テスト",
+        "学習内容を何も見ずに書き出す",
+        "練習問題を解く"
+      ],
+      "related_theory_ids": ["testing-effect", "desirable-difficulties"]
+    },
+    {
+      "id": "spacing-effect",
+      "name": "分散効果",
+      "name_en": "Spacing Effect",
+      "definition": "学習を時間的に分散させることで、集中学習よりも長期記憶への定着が促進される現象。",
+      "examples": [
+        "毎日少しずつ復習する",
+        "間隔を空けて練習する",
+        "SRS（間隔反復システム）の利用"
+      ],
+      "related_theory_ids": ["spaced-repetition", "desirable-difficulties"]
+    },
+    {
+      "id": "forgetting-curve",
+      "name": "忘却曲線",
+      "name_en": "Forgetting Curve",
+      "definition": "エビングハウスが発見した、時間経過に伴う記憶保持率の低下パターン。学習直後に急激に忘却が進み、その後緩やかになる。",
+      "examples": [
+        "講義後数日で内容の多くを忘れる",
+        "適切な復習で忘却曲線を緩やかにする",
+        "間隔反復で記憶を維持する"
+      ],
+      "related_theory_ids": ["spaced-repetition"]
+    },
+    {
+      "id": "growth-mindset-concept",
+      "name": "成長マインドセット",
+      "name_en": "Growth Mindset",
+      "definition": "能力は努力と学習によって伸ばせるという信念。固定マインドセット（能力は変わらないという信念）と対比される。",
+      "examples": [
+        "失敗を学習の機会と捉える",
+        "努力を重視する",
+        "挑戦的な課題に取り組む"
+      ],
+      "related_theory_ids": ["growth-mindset", "attribution-theory"]
+    },
+    {
+      "id": "fixed-mindset",
+      "name": "固定マインドセット",
+      "name_en": "Fixed Mindset",
+      "definition": "能力は生まれつき決まっており、変えることができないという信念。失敗を避け、努力を軽視する傾向につながる。",
+      "examples": [
+        "自分は数学ができない人だと決めつける",
+        "難しい課題を避ける",
+        "失敗を能力の欠如と解釈する"
+      ],
+      "related_theory_ids": ["growth-mindset"]
+    },
+    {
+      "id": "mastery-orientation",
+      "name": "習熟目標志向",
+      "name_en": "Mastery Goal Orientation",
+      "definition": "学習の目標が能力の向上や課題の習熟に向けられている状態。深い学習方略の使用と失敗への適応的な反応と関連する。",
+      "examples": [
+        "新しいスキルを身につけたいという目標",
+        "課題を深く理解しようとする",
+        "挑戦的な課題を選択する"
+      ],
+      "related_theory_ids": ["achievement-goal-theory"]
+    },
+    {
+      "id": "performance-orientation",
+      "name": "遂行目標志向",
+      "name_en": "Performance Goal Orientation",
+      "definition": "学習の目標が他者との比較や能力の証明に向けられている状態。表面的な学習方略と失敗回避傾向と関連することがある。",
+      "examples": [
+        "良い成績を取りたいという目標",
+        "他の人より優秀に見られたい",
+        "失敗を避けるために易しい課題を選ぶ"
+      ],
+      "related_theory_ids": ["achievement-goal-theory"]
+    },
+    {
+      "id": "cognitive-presence",
+      "name": "認知的プレゼンス",
+      "name_en": "Cognitive Presence",
+      "definition": "探究の共同体モデルにおける要素。批判的探究を通じて意味を構築し理解を深める程度。",
+      "examples": [
+        "問題の定義と探索",
+        "アイデアの統合",
+        "解決策の適用と評価"
+      ],
+      "related_theory_ids": ["community-of-inquiry"]
+    },
+    {
+      "id": "social-presence",
+      "name": "社会的プレゼンス",
+      "name_en": "Social Presence",
+      "definition": "探究の共同体モデルにおける要素。学習者がコミュニティの中で自分を表現し、人間関係を構築できる程度。",
+      "examples": [
+        "オンライン議論での自己開示",
+        "他の学習者との信頼関係構築",
+        "感情表現とユーモア"
+      ],
+      "related_theory_ids": ["community-of-inquiry"]
+    },
+    {
+      "id": "teaching-presence",
+      "name": "教授的プレゼンス",
+      "name_en": "Teaching Presence",
+      "definition": "探究の共同体モデルにおける要素。学習経験の設計、促進、方向付けを行う度合い。",
+      "examples": [
+        "学習活動の設計と組織化",
+        "議論の促進",
+        "直接指導とフィードバック"
+      ],
+      "related_theory_ids": ["community-of-inquiry"]
+    },
+    {
+      "id": "transfer-of-learning",
+      "name": "学習の転移",
+      "name_en": "Transfer of Learning",
+      "definition": "ある文脈で学習したことを、新しい異なる文脈で適用する能力。近転移（類似状況への転移）と遠転移（異なる状況への転移）に分類される。",
+      "examples": [
+        "数学の問題解決スキルを物理に応用",
+        "学校で学んだ知識を実生活で使う",
+        "一つのプログラミング言語から別の言語への応用"
+      ],
+      "related_theory_ids": ["cognitive-load-theory", "problem-based-learning", "situated-learning"]
+    },
+    {
+      "id": "prior-knowledge",
+      "name": "先行知識",
+      "name_en": "Prior Knowledge",
+      "definition": "学習者が新しい学習に臨む際に既に持っている知識、スキル、経験。新しい情報の理解と統合に大きく影響する。",
+      "examples": [
+        "基礎数学の知識が代数学習に影響",
+        "母語の知識が第二言語学習に影響",
+        "日常経験が科学概念の理解に影響"
+      ],
+      "related_theory_ids": ["constructivism", "cognitive-load-theory", "elaboration-theory"]
+    },
+    {
+      "id": "worked-example",
+      "name": "解法例示",
+      "name_en": "Worked Example",
+      "definition": "問題とその解法手順が詳細に示された学習教材。初学者の認知負荷を軽減し、スキーマ獲得を促進する。",
+      "examples": [
+        "数学の例題と解答",
+        "プログラミングのコード例",
+        "ステップバイステップのチュートリアル"
+      ],
+      "related_theory_ids": ["cognitive-load-theory"]
+    },
+    {
+      "id": "fading",
+      "name": "フェーディング",
+      "name_en": "Fading",
+      "definition": "学習者の習熟に伴い、足場かけや支援を徐々に減少させる手法。最終的には学習者の自立を目指す。",
+      "examples": [
+        "ヒントの段階的削減",
+        "ガイダンスの減少",
+        "完成例題から問題解決への移行"
+      ],
+      "related_theory_ids": ["cognitive-apprenticeship", "zone-of-proximal-development"]
+    },
+    {
+      "id": "formative-assessment",
+      "name": "形成的評価",
+      "name_en": "Formative Assessment",
+      "definition": "学習過程において、進捗を確認し指導を調整するために行われる評価。学習改善を目的とし、総括的評価と対比される。",
+      "examples": [
+        "小テストによる理解度確認",
+        "学習過程でのフィードバック",
+        "自己評価チェックリスト"
+      ],
+      "related_theory_ids": ["mastery-learning", "blooms-taxonomy"]
+    },
+    {
+      "id": "feedback",
+      "name": "フィードバック",
+      "name_en": "Feedback",
+      "definition": "学習者のパフォーマンスに関する情報提供。効果的なフィードバックは具体的で、タイムリーで、改善方法を含む。",
+      "examples": [
+        "課題への詳細なコメント",
+        "正誤の即時フィードバック",
+        "改善のための具体的提案"
+      ],
+      "related_theory_ids": ["mastery-learning", "self-regulated-learning"]
+    },
+    {
+      "id": "active-learning",
+      "name": "能動的学習",
+      "name_en": "Active Learning",
+      "definition": "学習者が受動的に情報を受け取るのではなく、能動的に学習活動に参加する学習形態。議論、問題解決、協同学習などを含む。",
+      "examples": [
+        "グループディスカッション",
+        "ピアラーニング",
+        "ケーススタディの分析"
+      ],
+      "related_theory_ids": ["constructivism", "problem-based-learning", "experiential-learning-theory"]
+    },
+    {
+      "id": "multiple-representations",
+      "name": "多重表象",
+      "name_en": "Multiple Representations",
+      "definition": "同じ概念や情報を複数の形式（言語、図表、数式、具体物など）で表現すること。異なる表象間の関連付けが深い理解を促進する。",
+      "examples": [
+        "グラフと数式と言語説明の併用",
+        "概念の具体例と抽象的定義",
+        "シミュレーションとテキスト説明"
+      ],
+      "related_theory_ids": ["multimedia-learning-theory", "cognitive-flexibility-theory"]
+    }
+  ]
+}

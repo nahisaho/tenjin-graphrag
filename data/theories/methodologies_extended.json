@@ -1,0 +1,313 @@
+{
+  "methodologies": [
+    {
+      "id": "direct-instruction-method",
+      "name": "直接教授法",
+      "name_en": "Direct Instruction",
+      "category": "explicit_teaching",
+      "description": "教師主導で明示的・体系的に知識やスキルを教授する方法。目標提示、モデリング、ガイド付き練習、独立練習の流れで構成。",
+      "procedures": [
+        "学習目標の明確な提示",
+        "新しい内容のモデリング・説明",
+        "ガイド付き練習と即時フィードバック",
+        "独立練習",
+        "復習と定着活動"
+      ],
+      "theoretical_grounding": ["behaviorism", "information-processing-theory", "mastery-learning"],
+      "evidence_level": "strong",
+      "effect_size": 0.59,
+      "best_for": ["基礎スキルの習得", "手続き的知識の教授", "特別支援教育"],
+      "limitations": ["高次思考スキルの促進に弱い", "学習者の自律性低下"]
+    },
+    {
+      "id": "problem-based-learning-method",
+      "name": "問題解決学習（PBL）",
+      "name_en": "Problem-Based Learning",
+      "category": "inquiry_based",
+      "description": "現実世界の複雑な問題を出発点とし、協働で問題解決に取り組みながら学習する方法。",
+      "procedures": [
+        "ill-structuredな問題の提示",
+        "既存知識の確認と学習課題の特定",
+        "自己主導的な情報収集と学習",
+        "グループでの議論と知識共有",
+        "解決策の提案と評価",
+        "振り返りとメタ認知的評価"
+      ],
+      "theoretical_grounding": ["constructivism", "situated-learning", "self-determination-theory"],
+      "evidence_level": "strong",
+      "effect_size": 0.68,
+      "best_for": ["問題解決能力の育成", "知識の統合", "協働スキルの発達"],
+      "limitations": ["時間がかかる", "基礎知識の前提", "ファシリテーターの力量依存"]
+    },
+    {
+      "id": "cooperative-learning-method",
+      "name": "協同学習",
+      "name_en": "Cooperative Learning",
+      "category": "social_learning",
+      "description": "学習者がグループで協力して共通の学習目標を達成する構造化された学習方法。",
+      "procedures": [
+        "グループ形成（異質性考慮）",
+        "肯定的相互依存関係の構築",
+        "個人の責任の明確化",
+        "グループ課題への取り組み",
+        "グループプロセスの振り返り"
+      ],
+      "theoretical_grounding": ["social-constructivism", "social-learning-theory", "zone-of-proximal-development"],
+      "evidence_level": "strong",
+      "effect_size": 0.59,
+      "best_for": ["社会的スキルの発達", "多様な視点の獲得", "動機づけの向上"],
+      "limitations": ["フリーライダー問題", "グループダイナミクスの管理", "時間効率"]
+    },
+    {
+      "id": "inquiry-based-learning-method",
+      "name": "探究学習",
+      "name_en": "Inquiry-Based Learning",
+      "category": "inquiry_based",
+      "description": "学習者が問いを立て、調査・実験を通じて知識を構築する学習方法。",
+      "procedures": [
+        "問い・疑問の生成",
+        "仮説の設定",
+        "調査・実験の計画と実施",
+        "データの収集と分析",
+        "結論の導出と共有",
+        "新たな問いの生成"
+      ],
+      "theoretical_grounding": ["constructivism", "discovery-learning", "experiential-learning"],
+      "evidence_level": "moderate",
+      "effect_size": 0.35,
+      "best_for": ["科学的思考力の育成", "知的好奇心の涵養", "研究スキルの発達"],
+      "limitations": ["時間がかかる", "誤概念形成のリスク", "適切なガイダンスの必要性"]
+    },
+    {
+      "id": "flipped-classroom-method",
+      "name": "反転授業",
+      "name_en": "Flipped Classroom",
+      "category": "blended_learning",
+      "description": "従来の授業と宿題の役割を反転し、基礎学習を事前に行い、授業時間を応用・対話活動に充てる方法。",
+      "procedures": [
+        "事前学習コンテンツ（動画等）の提供",
+        "学習者の事前学習（自宅等）",
+        "授業での確認クイズ",
+        "深い学習活動（討論、問題解決、プロジェクト）",
+        "個別フィードバックとサポート"
+      ],
+      "theoretical_grounding": ["multimedia-learning-theory", "self-determination-theory", "cognitive-load-theory"],
+      "evidence_level": "moderate",
+      "effect_size": 0.36,
+      "best_for": ["自己ペース学習", "授業時間の活性化", "個別対応の強化"],
+      "limitations": ["学習者の自己管理能力前提", "コンテンツ作成の負担", "デジタルディバイド"]
+    },
+    {
+      "id": "scaffolded-instruction-method",
+      "name": "足場かけ指導",
+      "name_en": "Scaffolded Instruction",
+      "category": "guided_instruction",
+      "description": "学習者のZPDに合わせた一時的支援を提供し、能力向上に伴い支援を撤退する指導法。",
+      "procedures": [
+        "学習者の現在レベルの診断",
+        "ZPD内の課題の設定",
+        "モデリングと説明",
+        "段階的なヒント・支援の提供",
+        "能力向上に伴う支援の撤退（フェーディング）",
+        "自立した遂行の確認"
+      ],
+      "theoretical_grounding": ["zone-of-proximal-development", "cognitive-apprenticeship"],
+      "evidence_level": "strong",
+      "effect_size": 0.82,
+      "best_for": ["挑戦的課題への取り組み", "個別化指導", "自己調整学習の促進"],
+      "limitations": ["教師の診断能力依存", "多人数クラスでの実施困難", "最適な支援レベルの特定"]
+    },
+    {
+      "id": "case-based-learning-method",
+      "name": "ケースメソッド",
+      "name_en": "Case-Based Learning",
+      "category": "contextual_learning",
+      "description": "現実の事例（ケース）を分析・討論することで、理論と実践を統合する学習方法。",
+      "procedures": [
+        "ケースの事前読解",
+        "個人でのケース分析",
+        "小グループでの討論",
+        "クラス全体での討論",
+        "理論との関連づけ",
+        "振り返りと教訓の抽出"
+      ],
+      "theoretical_grounding": ["situated-learning", "experiential-learning", "problem-based-learning"],
+      "evidence_level": "moderate",
+      "effect_size": 0.48,
+      "best_for": ["意思決定能力の育成", "理論の実践適用", "批判的思考力の発達"],
+      "limitations": ["良質なケースの開発困難", "討論のファシリテーション", "表面的な理解のリスク"]
+    },
+    {
+      "id": "game-based-learning-method",
+      "name": "ゲーム型学習",
+      "name_en": "Game-Based Learning",
+      "category": "experiential",
+      "description": "教育的に設計されたゲームを通じて、楽しみながら知識・スキルを習得する学習方法。",
+      "procedures": [
+        "学習目標に合ったゲームの選択・設計",
+        "ゲームのルール説明",
+        "ゲームプレイ",
+        "デブリーフィング（振り返り）",
+        "学習内容の明示化と転移促進"
+      ],
+      "theoretical_grounding": ["flow-theory", "self-determination-theory", "experiential-learning"],
+      "evidence_level": "moderate",
+      "effect_size": 0.33,
+      "best_for": ["動機づけの向上", "没入体験", "安全な試行錯誤"],
+      "limitations": ["学習目標との整合", "過剰エンターテインメント", "開発コスト"]
+    },
+    {
+      "id": "peer-tutoring-method",
+      "name": "ピアチュータリング",
+      "name_en": "Peer Tutoring",
+      "category": "social_learning",
+      "description": "学習者同士が教え合うことで、教える側も学ぶ側も学習効果を得る方法。",
+      "procedures": [
+        "チューター・チューティの組み合わせ",
+        "チューターへのトレーニング",
+        "構造化されたチュータリングセッション",
+        "進捗のモニタリング",
+        "役割交代（相互的な場合）"
+      ],
+      "theoretical_grounding": ["zone-of-proximal-development", "social-learning-theory", "elaboration-theory"],
+      "evidence_level": "strong",
+      "effect_size": 0.55,
+      "best_for": ["個別化支援", "社会的スキルの発達", "教えることによる学習深化"],
+      "limitations": ["チューターの能力差", "相性の問題", "管理の手間"]
+    },
+    {
+      "id": "project-based-learning-method",
+      "name": "プロジェクト学習",
+      "name_en": "Project-Based Learning",
+      "category": "inquiry_based",
+      "description": "複雑で本物の問いや課題を中心に、長期間にわたってプロジェクトに取り組む学習方法。",
+      "procedures": [
+        "本質的な問いの設定",
+        "プロジェクト計画の立案",
+        "調査・探究活動",
+        "成果物の作成",
+        "発表・共有",
+        "評価と振り返り"
+      ],
+      "theoretical_grounding": ["constructivism", "experiential-learning", "situated-learning"],
+      "evidence_level": "moderate",
+      "effect_size": 0.45,
+      "best_for": ["21世紀スキルの育成", "教科横断的学習", "実世界との接続"],
+      "limitations": ["時間と資源の必要性", "評価の困難", "カリキュラムとの整合"]
+    },
+    {
+      "id": "retrieval-practice-method",
+      "name": "検索練習",
+      "name_en": "Retrieval Practice",
+      "category": "memory_enhancement",
+      "description": "学習した内容を能動的に思い出すことで、長期記憶への定着を促進する学習方法。",
+      "procedures": [
+        "学習内容の最初の学習",
+        "一定の間隔をおく",
+        "ヒントなしでの想起テスト",
+        "正答のフィードバック",
+        "間隔を広げながら繰り返し"
+      ],
+      "theoretical_grounding": ["testing-effect", "spaced-practice", "information-processing-theory"],
+      "evidence_level": "strong",
+      "effect_size": 0.70,
+      "best_for": ["事実的知識の記憶", "長期保持の促進", "試験準備"],
+      "limitations": ["高次思考への直接効果小", "初期学習への負荷", "動機づけの維持"]
+    },
+    {
+      "id": "spaced-repetition-method",
+      "name": "間隔反復学習",
+      "name_en": "Spaced Repetition",
+      "category": "memory_enhancement",
+      "description": "復習の間隔を徐々に広げていくことで、効率的に長期記憶を形成する学習方法。",
+      "procedures": [
+        "学習項目の初回学習",
+        "短い間隔での最初の復習",
+        "記憶の強さに応じた間隔の調整",
+        "忘れる直前での復習",
+        "間隔を拡張しながら継続"
+      ],
+      "theoretical_grounding": ["spaced-practice", "information-processing-theory"],
+      "evidence_level": "strong",
+      "effect_size": 0.60,
+      "best_for": ["語彙学習", "事実の記憶", "資格試験準備"],
+      "limitations": ["概念理解への適用限界", "ツール依存", "単調になりやすい"]
+    },
+    {
+      "id": "reciprocal-teaching-method",
+      "name": "相互教授法",
+      "name_en": "Reciprocal Teaching",
+      "category": "comprehension_strategy",
+      "description": "教師と学習者が対話しながら、4つの読解方略（要約、質問生成、明確化、予測）を交互に用いる指導法。",
+      "procedures": [
+        "4つの方略の明示的指導",
+        "教師によるモデリング",
+        "グループでの対話的実践",
+        "学習者がリーダー役を交代",
+        "方略使用の内化と自立"
+      ],
+      "theoretical_grounding": ["zone-of-proximal-development", "cognitive-apprenticeship", "metacognition"],
+      "evidence_level": "strong",
+      "effect_size": 0.74,
+      "best_for": ["読解力向上", "メタ認知的方略の習得", "対話的学習"],
+      "limitations": ["トレーニングの必要性", "時間がかかる", "テキスト依存"]
+    },
+    {
+      "id": "self-explanation-method",
+      "name": "自己説明",
+      "name_en": "Self-Explanation",
+      "category": "elaboration_strategy",
+      "description": "学習内容を自分自身に説明することで、理解を深め、知識の統合を促進する方法。",
+      "procedures": [
+        "学習内容の読み・視聴",
+        "内容を自分の言葉で説明",
+        "既存知識との関連づけ",
+        "理解のギャップの特定",
+        "追加学習による補完"
+      ],
+      "theoretical_grounding": ["elaboration-theory", "constructivism", "metacognition"],
+      "evidence_level": "strong",
+      "effect_size": 0.62,
+      "best_for": ["概念理解の深化", "問題解決学習", "先行知識の活性化"],
+      "limitations": ["学習者の能力依存", "時間がかかる", "訓練の必要性"]
+    },
+    {
+      "id": "think-pair-share-method",
+      "name": "シンク・ペア・シェア",
+      "name_en": "Think-Pair-Share",
+      "category": "cooperative_structure",
+      "description": "個人思考→ペア討論→全体共有の3段階で構成される、シンプルで効果的な協同学習構造。",
+      "procedures": [
+        "質問・課題の提示",
+        "個人での思考時間（Think）",
+        "ペアでの討論（Pair）",
+        "全体での共有（Share）",
+        "教師によるまとめ"
+      ],
+      "theoretical_grounding": ["social-constructivism", "information-processing-theory"],
+      "evidence_level": "moderate",
+      "effect_size": 0.45,
+      "best_for": ["全員参加の促進", "低リスクな発言機会", "多様な視点の獲得"],
+      "limitations": ["深い討論には不十分", "時間管理", "ペアの相性"]
+    }
+  ],
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2025-01-26",
+    "total_methodologies": 15,
+    "categories": [
+      "explicit_teaching",
+      "inquiry_based",
+      "social_learning",
+      "blended_learning",
+      "guided_instruction",
+      "contextual_learning",
+      "experiential",
+      "memory_enhancement",
+      "comprehension_strategy",
+      "elaboration_strategy",
+      "cooperative_structure"
+    ],
+    "evidence_levels": ["strong", "moderate", "limited"]
+  }
+}
